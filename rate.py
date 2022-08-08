@@ -20,7 +20,7 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[
 
 time.sleep(3)
 
-driver.find_element_by_css_selector('#emailId').send_keys("yashwanth6678+nita@gmail.com") #change email to yours and below change put same email 
+driver.find_element_by_css_selector('#emailId').send_keys("yashwanth6671+nita@gmail.com") #change email to yours and below change put same email 
 #exa:-viratvk@gmail.com
 #viratv.k@gmail.com
 #v.iratvk@gmail.com
