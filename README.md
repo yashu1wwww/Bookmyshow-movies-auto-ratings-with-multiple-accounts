@@ -26,4 +26,6 @@ and rating values in 48th line which rating you want like these
 
 100,100-for 90% ratings
 
+if you use url open from text file then see the screenshot & dont forgot to add url in text file and dont forgot to add hastag to driver.get("   ") 
+
 Download The Latest Version Of Chrome Driver https://chromedriver.chromium.org/ & Extract The File And Place To These Folder open cmd and enter rate or rate.py or you can rename the file and run
