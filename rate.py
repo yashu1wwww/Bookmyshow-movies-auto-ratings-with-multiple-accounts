@@ -1,5 +1,6 @@
-#I putted 10 automate rating codes if need more means copy 3rd line to where the you find first driver.close() line and paste in 469 line if want more means.....from selenium import webdriver
+#I putted 10 automate rating codes if need more means copy 3rd line to where the you find first driver.close() line and paste in 470 line if want more means.....from selenium import webdriver
 
+from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.support.ui import WebDriverWait
