@@ -8,6 +8,8 @@ replace your email id with 24th line
 👉use these technique to enter otp fastly
 https://youtu.be/kKkhecWiWbc
 
+use proxy for hide ip address where interest is coming from same place
+
 and rating values in 48th line which rating you want like these
 0,10
 
