@@ -5,6 +5,9 @@ Replace Which Movie You Want To Rate Now In 12th Line with url
 
 replace your email id with 24th line
 
+👉use these technique to enter otp fastly
+https://youtu.be/kKkhecWiWbc
+
 and rating values in 48th line which rating you want like these
 0,10
 
