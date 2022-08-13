@@ -34,3 +34,23 @@ and rating values in 48th line which rating you want like these
 if you use url open from text file then see the screenshot & dont forgot to add url in text file and dont forgot to add hastag to driver.get("   ") 
 
 Download The Latest Version Of Chrome Driver https://chromedriver.chromium.org/ & Extract The File And Place To These Folder open cmd and enter rate or rate.py or you can rename the file and run
+
+👉Note:-
+
+👉if your selenium version is in latest version then 
+the code never run 
+
+👉open cmd and enter pip uninstall selenium
+
+And enter 
+
+pip install selenium==4.2.1
+or
+pip install selenium==4.2.0
+
+and hit enter 
+
+and 
+
+python -c "import selenium; print(selenium.__version__)"
+<to check the current version of selenium>
