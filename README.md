@@ -3,6 +3,8 @@ Bookmyshow auto ratings with multiple mails using python with selenium
 
 #I putted 25 automate rating codes if need more means copy 3rd line to where the you find first driver.close() line and paste in 1253 line if want more means.....from selenium import webdriver to driver.close()
 
+in proxy_service.py file in 2 line add proxy number inside ...
+
 replace your email id with 27th line & replace in below codes where emails are asked with 
 https://generator.email/blog/gmail-generator for unlimited dot mails 
 
