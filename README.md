@@ -7,6 +7,9 @@ https://generator.email/blog/gmail-generator for unlimited dot mails
 👉use these technique to enter otp fastly
 https://youtu.be/kKkhecWiWbc
 
+👉bms auto ratings
+https://youtu.be/TkQydrpHgZo
+
 and rating values in 48th line which rating you want like these
 0,10
 
