@@ -1,4 +1,4 @@
-#I putted 25 automate rating codes if need more means copy 3rd line to where the you find first driver.close() line and paste in 1253 line if want more means.....from selenium import webdriver to driver.clode()
+#I putted 25 automate rating codes if need more means copy 3rd line to where the you find first driver.close() line and paste in 1253 line if want more means.....from selenium import webdriver to driver.close()
 
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
