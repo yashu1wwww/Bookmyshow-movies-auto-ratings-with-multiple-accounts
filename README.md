@@ -1,14 +1,11 @@
 # Bookmyshow-auto-ratings-with-multiple-accounts
 Bookmyshow auto ratings with multiple mails using python with selenium
 
-Replace Which Movie You Want To Rate Now In 12th Line with url
-
-replace your email id with 24th line
+replace your email id with 27th line & replace in below codes where emails are asked with 
+https://generator.email/blog/gmail-generator for unlimited dot mails 
 
 👉use these technique to enter otp fastly
 https://youtu.be/kKkhecWiWbc
-
-use proxy for hide ip address where interest is coming from same place
 
 and rating values in 48th line which rating you want like these
 0,10
