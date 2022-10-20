@@ -14,7 +14,7 @@ with open("urls.txt") as f:
     for url in f:
         driver.get(url)  
         
-driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") if url not runninf from using with open("urls.txt") as f: use these by removing # in starting and add # to like these 
+driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") if url not runninf from using with open("urls.txt") as f: use these by removing # in starting and add # to like these 👇 To 13th Line
   
 #with open("urls.txt") as f:
     #for url in f:
