@@ -5,7 +5,8 @@ Bookmyshow auto ratings with multiple mails using python with selenium
 
 in proxy_service.py file in 2 line add proxy number inside to by pass location...
 
-replace your email id with 27th line & replace in below codes where emails are asked with 
+replace your email id with 33th line & replace in below codes where emails are asked with select 33 line and enter ctrl+h button it ask replace in that particular email location replace its...
+
 https://generator.email/blog/gmail-generator for unlimited dot mails 
 
 👉use these technique to enter otp fastly
