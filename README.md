@@ -1,7 +1,9 @@
 # Bookmyshow-auto-ratings-with-multiple-accounts
 Bookmyshow auto ratings with multiple mails using python with selenium
 
-#replace with your dot mails in rate.py  
+#replace with your dot mails in rate.py add 15 dot mails of one gmail and another 15 dot mails in another gmail use 
+these for dot gmails enter your gmail and press generate
+https://generator.email/blog/gmail-generator 
 
 in proxy_service.py file in 2 line add proxy number inside to by pass location...
 
