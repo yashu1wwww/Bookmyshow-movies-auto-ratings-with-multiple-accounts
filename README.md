@@ -1,11 +1,11 @@
 # Bookmyshow-auto-ratings-with-multiple-accounts
 Bookmyshow auto ratings with multiple mails using python with selenium
 
-#replace with your dot mails in script 
+#replace with your dot mails in rate.py  
 
 in proxy_service.py file in 2 line add proxy number inside to by pass location...
 
-replace your movie url (select location in bms) after copy the which movie you want to put automatic rating for below codes select these line and  click ctrl+h button and paste the line and click replace all button then below codes url will be changed... 
+#replace your movie url (select location in bms) after copy the which movie you want to put automatic rating for below codes select these line and  click ctrl+h button and it ask replace with then paste the line and click replace all button then below codes url will be changed... 
 
 https://generator.email/blog/gmail-generator for unlimited dot mails 
 
