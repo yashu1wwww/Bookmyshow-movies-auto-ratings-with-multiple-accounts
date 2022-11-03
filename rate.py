@@ -43,7 +43,7 @@ cc=['yashwanth6666+stan@gmail.com']
 dd=['yashwanth6666+kaye@gmail.com']
 
 driver = webdriver.Chrome()
-driver.get("https://in.bookmyshow.com/ahmedabad/movies/master/ET00110368") #replace your movie url (select location in bms) after copy the which movie you want to put automatic rating for below codes select these line and  click ctrl+h button and paste the line and click replace all button then below codes url will be changed... 
+driver.get("https://in.bookmyshow.com/ahmedabad/movies/master/ET00110368") #replace your movie url (select location in bms) after copy the which movie you want to put automatic rating for below codes select these line and  click ctrl+h button and it ask replace with then paste the line and click replace all button then below codes url will be changed... 
 
 driver.implicitly_wait(2)
 
