@@ -27,6 +27,7 @@ l=['yashwanth6677+gage@gmail.com']
 m=['yashwanth6677+max@gmail.com']
 n=[y.ash.w.ant.h.6.677'@gmail.com']
 o=['yashwanth6677+lita@gmail.com']
+#here i added another id dot mails
 p=['yashwanth6666+ginny@gmail.com']
 q=['yashwanth6666+timmy@gmail.com']
 r=['yashwanth6666+kent@gmail.com']
