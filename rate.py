@@ -10,7 +10,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 import random
 
-#replace with your 15 dot mails of one gmails and another 15 dot mails of another gmails here remaining all goes automatic process you only enter the otp in 11 seconds....
+#replace with your 15 dot mails of one gmails and another 15 dot mails of another gmails here remaining all goes automatic process you only enter the otp in 11 seconds(use mobile for otp where fastly we can enter by seeing otp in mobile)....
 
 a=['yashwanth6677+nash@gmail.com']
 b=['ya.s.hw.anth.6.6.77@gmail.com'] 
