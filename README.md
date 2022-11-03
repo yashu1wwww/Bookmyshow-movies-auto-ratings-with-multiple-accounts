@@ -10,7 +10,7 @@ in proxy_service.py file in 2 line add proxy number inside to by pass location..
 
 #replace your movie url in 47 line (select location in bms) after copy the which movie you want to put automatic rating for below codes select these line and  click ctrl+h button and it ask replace with then paste the line and click replace all button then below codes url will be changed... 
 
-https://generator.email/blog/gmail-generator for unlimited dot mails 
+after replacing dot mails and url all process go automatic you only enter the otp in 11 seconds(use mobile for otp where fastly we can enter by seeing otp in mobile)....
 
 👉use these technique to enter otp fastly
 https://youtu.be/kKkhecWiWbc
