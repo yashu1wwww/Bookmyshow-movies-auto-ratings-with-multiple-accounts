@@ -1,7 +1,7 @@
 # Bookmyshow-auto-ratings-with-multiple-accounts
 Bookmyshow auto ratings with multiple mails using python with selenium
 
-#I putted 25 automate rating codes if need more means copy 3rd line to where the you find first driver.close() line and paste in 1346 line if want more means.....from selenium import webdriver to driver.close()
+#replace with your dot mails in script 
 
 in proxy_service.py file in 2 line add proxy number inside to by pass location...
 
