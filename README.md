@@ -1,6 +1,9 @@
 # Bookmyshow-auto-ratings-with-multiple-accounts
 Bookmyshow auto ratings with multiple mails using python with selenium
 
+
+𝙄𝙛 𝙔𝙤𝙪 𝙁𝙖𝙣 𝙊𝙛 𝙏𝙝𝙖𝙩 𝙈𝙤𝙫𝙞𝙚 & 𝙈𝙖𝙠𝙚 30+ 𝙍𝙖𝙩𝙞𝙣𝙜𝙨 𝙄𝙣 𝙁𝙖𝙨𝙩 𝙈𝙚𝙖𝙣𝙨 𝙃𝙚𝙧𝙚 𝙄𝙨 𝙏𝙝𝙚 𝘾𝙝𝙖𝙣𝙘𝙚....
+
 #replace with your dot mails in rate.py add 15 dot mails of one gmail and another 15 dot mails in another gmail use 
 these for dot gmails enter your gmail and press generate button after
 
