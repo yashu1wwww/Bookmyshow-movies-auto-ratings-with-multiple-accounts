@@ -77,7 +77,7 @@ move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[3]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
 
 driver.close()
 
@@ -115,7 +115,7 @@ move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[3]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
 
 driver.close()
 
@@ -153,7 +153,7 @@ move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[3]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
 
 driver.close()
 
@@ -191,7 +191,7 @@ move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[3]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
 
 driver.close()
 
@@ -230,7 +230,7 @@ move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[3]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
 
 driver.close()
 
@@ -268,7 +268,7 @@ move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[3]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
 
 driver.close()
 
@@ -307,7 +307,7 @@ move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[3]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
 
 driver.close()
 
@@ -345,7 +345,7 @@ move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[3]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
 
 driver.close()
 
@@ -384,7 +384,7 @@ move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[3]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
 
 driver.close()
 
@@ -422,7 +422,7 @@ move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[3]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
 
 driver.close()
 
@@ -461,7 +461,7 @@ move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[3]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
 
 driver.close()
 
@@ -499,7 +499,7 @@ move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[3]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
 
 driver.close()
 
@@ -538,7 +538,7 @@ move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[3]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
 
 driver.close()
 
@@ -576,7 +576,7 @@ move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[3]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
 
 driver.close()
 
@@ -615,7 +615,7 @@ move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[3]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
 
 driver.close()
 
@@ -653,7 +653,7 @@ move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[3]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
 
 driver.close()
 
@@ -692,7 +692,7 @@ move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[3]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
 
 driver.close()
 
@@ -730,7 +730,7 @@ move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[3]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
 
 driver.close()
 
@@ -769,7 +769,7 @@ move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[3]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
 
 driver.close()
 
@@ -807,7 +807,7 @@ move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[3]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
 
 driver.close()
 
@@ -846,7 +846,7 @@ move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[3]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
 
 driver.close()
 
@@ -884,7 +884,7 @@ move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[3]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
 
 driver.close()
 
@@ -923,7 +923,7 @@ move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[3]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
 
 driver.close()
 
@@ -961,7 +961,7 @@ move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[3]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
 
 driver.close()
 
@@ -1000,7 +1000,7 @@ move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[3]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
 
 driver.close()
 
@@ -1038,7 +1038,7 @@ move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[3]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
 
 driver.close()
 
@@ -1077,7 +1077,7 @@ move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[3]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
 
 driver.close()
 
@@ -1115,7 +1115,7 @@ move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[3]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
 
 driver.close()
 
@@ -1154,7 +1154,7 @@ move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[3]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
 
 driver.close()
 
@@ -1192,10 +1192,6 @@ move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[3]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
 
 driver.close()
-
-
-
-       
