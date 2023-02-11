@@ -70,7 +70,8 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/d
 
 time.sleep(1)
 
-slider = driver.find_element_by_css_selector("#range")
+#slider = driver.find_element_by_css_selector("#range")
+slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
@@ -108,7 +109,8 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/d
 
 time.sleep(1)
 
-slider = driver.find_element_by_css_selector("#range")
+#slider = driver.find_element_by_css_selector("#range")
+slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
@@ -146,7 +148,8 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/d
 
 time.sleep(1)
 
-slider = driver.find_element_by_css_selector("#range")
+#slider = driver.find_element_by_css_selector("#range")
+slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
@@ -184,7 +187,8 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/d
 
 time.sleep(1)
 
-slider = driver.find_element_by_css_selector("#range")
+#slider = driver.find_element_by_css_selector("#range")
+slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
@@ -223,7 +227,8 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/d
 
 time.sleep(1)
 
-slider = driver.find_element_by_css_selector("#range")
+#slider = driver.find_element_by_css_selector("#range")
+slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
@@ -261,7 +266,8 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/d
 
 time.sleep(1)
 
-slider = driver.find_element_by_css_selector("#range")
+#slider = driver.find_element_by_css_selector("#range")
+slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
@@ -300,7 +306,8 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/d
 
 time.sleep(1)
 
-slider = driver.find_element_by_css_selector("#range")
+#slider = driver.find_element_by_css_selector("#range")
+slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
@@ -338,7 +345,8 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/d
 
 time.sleep(1)
 
-slider = driver.find_element_by_css_selector("#range")
+#slider = driver.find_element_by_css_selector("#range")
+slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
@@ -377,7 +385,8 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/d
 
 time.sleep(1)
 
-slider = driver.find_element_by_css_selector("#range")
+#slider = driver.find_element_by_css_selector("#range")
+slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
@@ -415,7 +424,8 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/d
 
 time.sleep(1)
 
-slider = driver.find_element_by_css_selector("#range")
+#slider = driver.find_element_by_css_selector("#range")
+slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
@@ -454,7 +464,8 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/d
 
 time.sleep(1)
 
-slider = driver.find_element_by_css_selector("#range")
+#slider = driver.find_element_by_css_selector("#range")
+slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
@@ -492,7 +503,8 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/d
 
 time.sleep(1)
 
-slider = driver.find_element_by_css_selector("#range")
+#slider = driver.find_element_by_css_selector("#range")
+slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
@@ -531,7 +543,8 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/d
 
 time.sleep(1)
 
-slider = driver.find_element_by_css_selector("#range")
+#slider = driver.find_element_by_css_selector("#range")
+slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
@@ -569,7 +582,8 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/d
 
 time.sleep(1)
 
-slider = driver.find_element_by_css_selector("#range")
+#slider = driver.find_element_by_css_selector("#range")
+slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
@@ -608,7 +622,8 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/d
 
 time.sleep(1)
 
-slider = driver.find_element_by_css_selector("#range")
+#slider = driver.find_element_by_css_selector("#range")
+slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
@@ -646,7 +661,8 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/d
 
 time.sleep(1)
 
-slider = driver.find_element_by_css_selector("#range")
+#slider = driver.find_element_by_css_selector("#range")
+slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
@@ -685,7 +701,8 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/d
 
 time.sleep(1)
 
-slider = driver.find_element_by_css_selector("#range")
+#slider = driver.find_element_by_css_selector("#range")
+slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
@@ -723,7 +740,8 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/d
 
 time.sleep(1)
 
-slider = driver.find_element_by_css_selector("#range")
+#slider = driver.find_element_by_css_selector("#range")
+slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
@@ -762,7 +780,8 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/d
 
 time.sleep(1)
 
-slider = driver.find_element_by_css_selector("#range")
+#slider = driver.find_element_by_css_selector("#range")
+slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
@@ -800,7 +819,8 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/d
 
 time.sleep(1)
 
-slider = driver.find_element_by_css_selector("#range")
+#slider = driver.find_element_by_css_selector("#range")
+slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
@@ -839,7 +859,8 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/d
 
 time.sleep(1)
 
-slider = driver.find_element_by_css_selector("#range")
+#slider = driver.find_element_by_css_selector("#range")
+slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
@@ -877,7 +898,8 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/d
 
 time.sleep(1)
 
-slider = driver.find_element_by_css_selector("#range")
+#slider = driver.find_element_by_css_selector("#range")
+slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
@@ -916,7 +938,8 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/d
 
 time.sleep(1)
 
-slider = driver.find_element_by_css_selector("#range")
+#slider = driver.find_element_by_css_selector("#range")
+slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
@@ -954,7 +977,8 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/d
 
 time.sleep(1)
 
-slider = driver.find_element_by_css_selector("#range")
+#slider = driver.find_element_by_css_selector("#range")
+slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
@@ -993,7 +1017,8 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/d
 
 time.sleep(1)
 
-slider = driver.find_element_by_css_selector("#range")
+#slider = driver.find_element_by_css_selector("#range")
+slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
@@ -1031,7 +1056,8 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/d
 
 time.sleep(1)
 
-slider = driver.find_element_by_css_selector("#range")
+#slider = driver.find_element_by_css_selector("#range")
+slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
@@ -1070,7 +1096,8 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/d
 
 time.sleep(1)
 
-slider = driver.find_element_by_css_selector("#range")
+#slider = driver.find_element_by_css_selector("#range")
+slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
@@ -1108,7 +1135,8 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/d
 
 time.sleep(1)
 
-slider = driver.find_element_by_css_selector("#range")
+#slider = driver.find_element_by_css_selector("#range")
+slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
@@ -1147,7 +1175,8 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/d
 
 time.sleep(1)
 
-slider = driver.find_element_by_css_selector("#range")
+#slider = driver.find_element_by_css_selector("#range")
+slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
@@ -1185,7 +1214,8 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/d
 
 time.sleep(1)
 
-slider = driver.find_element_by_css_selector("#range")
+#slider = driver.find_element_by_css_selector("#range")
+slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
