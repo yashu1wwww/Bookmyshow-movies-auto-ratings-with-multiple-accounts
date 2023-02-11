@@ -21,8 +21,8 @@ after replacing dot mails and url all process go automatic you only enter the ot
 👉use these technique to enter otp fastly
 https://youtu.be/kKkhecWiWbc
 
-👉bms auto ratings
-https://youtu.be/TkQydrpHgZo
+👉Bms auto ratings(for video record i made auto rates one time)
+https://youtu.be/LDIkXSJwbpo
 
 and rating values in 48th line which rating you want like these
 0,10
@@ -43,7 +43,7 @@ and rating values in 48th line which rating you want like these
 
 0,90
 
-100,100-for 90% ratings
+100,100-for 100% ratings
 
 if you use url open from text file then see the screenshot & dont forgot to add url in text file and dont forgot to add hastag to driver.get("   ") 
 
