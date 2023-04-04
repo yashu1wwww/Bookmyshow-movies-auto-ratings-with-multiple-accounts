@@ -12,6 +12,34 @@ https://generator.email/blog/gmail-generator
 
 https://turbovpn.com/download/windows
 
+𝙏𝙚𝙢𝙥 𝙈𝙖𝙞𝙡𝙨📧
+
+https://temp-mail.org/
+
+https://mail.tm/en/
+
+https://www.emailondeck.com/
+
+https://www.fakemail.net/
+
+https://tempail.com/
+
+https://www.mohmal.com/en/inbox
+
+10minutemail.com
+
+Mailnator
+
+E4ward
+
+Guerrilla Mail
+
+ThrowAwayMail
+
+GetNada
+
+YOPmail
+
 download these and connect when you run thr bot to hide the location after 30 accs auto ratings...
 
 #replace your movie url in 47 line (select location in bms) after copy the which movie you want to put automatic rating for below codes select these line and  click ctrl+h button and it ask replace with then paste the line and click replace all button then below codes url will be changed... 
