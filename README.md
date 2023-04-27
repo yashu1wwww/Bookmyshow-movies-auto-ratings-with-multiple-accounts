@@ -9,8 +9,6 @@ these for dot gmails enter your gmail and press generate button after
 
 https://generator.email/blog/gmail-generator 
 
-https://turbovpn.com/download/windows
-
 𝙏𝙚𝙢𝙥 𝙈𝙖𝙞𝙡𝙨📧
 
 https://temp-mail.org/
@@ -39,11 +37,19 @@ GetNada
 
 YOPmail
 
-download these and connect when you run thr bot to hide the location after 30 accs auto ratings...
+To hide the location after 30 automatic ratings, download and connect these when running the bot:
 
-#replace your movie url in 47 line (select location in bms) after copy the which movie you want to put automatic rating for below codes select these line and  click ctrl+h button and it ask replace with then paste the line and click replace all button then below codes url will be changed... 
+https://turbovpn.com/download/windows"
 
-after replacing dot mails and url all process go automatic you only enter the otp in 11 seconds(use mobile for otp where fastly we can enter by seeing otp in mobile)....
+#To use the program:
+
+Replace the URL of the movie you want to rate on line 47.
+
+Copy the URL of the movie you want to add to your automatic interests. Then, select the lines below and press 'Ctrl+H'. It will prompt you to replace the selected text, paste the copied URL, and click on 'Replace All'. After replacing the email and URL, the entire process will be automated.
+
+You only need to enter the OTP within 11 seconds (use your mobile phone for faster entry of OTP).
+
+Note: After replacing the email and URL, the entire process will be automated."
 
 👉use these technique to enter otp fastly
 https://youtu.be/kKkhecWiWbc
@@ -51,7 +57,8 @@ https://youtu.be/kKkhecWiWbc
 👉Bms auto ratings(for video record i made auto rates one time)
 https://youtu.be/LDIkXSJwbpo
 
-and rating values in 48th line which rating you want like these
+In the 48th line, which rating value do you want? You can choose from the following options:
+
 0,10
 
 0,20
@@ -70,11 +77,11 @@ and rating values in 48th line which rating you want like these
 
 0,90
 
-100,100-for 100% ratings
+100,100 - for 100% ratings
 
-if you use url open from text file then see the screenshot & dont forgot to add url in text file and dont forgot to add hastag to driver.get("   ") 
+If you are using a URL from a text file, please refer to the screenshot and don't forget to add the URL in the text file. Also, make sure to add a hashtag to "driver.get("")".
 
-Download The Latest Version Of Chrome Driver https://chromedriver.chromium.org/ & Extract The File And Place To These Folder open cmd and enter rate or rate.py or you can rename the file and run
+To download the latest version of Chrome Driver, please visit https://chromedriver.chromium.org/ and extract the file to the designated folder. Then, open the command prompt and enter "rate" or "rate.py" (or you can rename the file and run it accordingly).
 
 👉𝙏𝙤 𝙗𝙮𝙥𝙖𝙨𝙨 𝘾𝙝𝙧𝙤𝙢𝙚𝘿𝙧𝙞𝙫𝙚𝙧, 𝙮𝙤𝙪 𝙘𝙖𝙣 𝙪𝙨𝙚 𝙖 𝙋𝙮𝙩𝙝𝙤𝙣 𝙨𝙘𝙧𝙞𝙥𝙩 𝙘𝙖𝙡𝙡𝙚𝙙 '𝙧𝙢.𝙥𝙮' 𝙖𝙣𝙙 𝙧𝙚𝙥𝙡𝙖𝙘𝙚 𝙩𝙝𝙚 𝙐𝙍𝙇 𝙖𝙣𝙙 𝙚𝙢𝙖𝙞𝙡 𝙫𝙖𝙧𝙞𝙖𝙗𝙡𝙚𝙨 𝙖𝙘𝙘𝙤𝙧𝙙𝙞𝙣𝙜𝙡𝙮.
 
