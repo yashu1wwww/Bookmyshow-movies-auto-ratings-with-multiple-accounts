@@ -4,7 +4,6 @@ Bookmyshow auto ratings with multiple mails using python with selenium
 
 𝙄𝙛 𝙔𝙤𝙪 𝙁𝙖𝙣 𝙊𝙛 𝙏𝙝𝙖𝙩 𝙈𝙤𝙫𝙞𝙚 & 𝙈𝙖𝙠𝙚 30+ 𝙍𝙖𝙩𝙞𝙣𝙜𝙨 𝙄𝙣 𝙁𝙖𝙨𝙩 𝙈𝙚𝙖𝙣𝙨 𝙃𝙚𝙧𝙚 𝙄𝙨 𝙏𝙝𝙚 𝘾𝙝𝙖𝙣𝙘𝙚....
 
-
 #replace with your dot mails in rate.py add 15 dot mails of one gmail and another 15 dot mails in another gmail use 
 these for dot gmails enter your gmail and press generate button after
 
@@ -76,6 +75,8 @@ and rating values in 48th line which rating you want like these
 if you use url open from text file then see the screenshot & dont forgot to add url in text file and dont forgot to add hastag to driver.get("   ") 
 
 Download The Latest Version Of Chrome Driver https://chromedriver.chromium.org/ & Extract The File And Place To These Folder open cmd and enter rate or rate.py or you can rename the file and run
+
+👉𝙏𝙤 𝙗𝙮𝙥𝙖𝙨𝙨 𝘾𝙝𝙧𝙤𝙢𝙚𝘿𝙧𝙞𝙫𝙚𝙧, 𝙮𝙤𝙪 𝙘𝙖𝙣 𝙪𝙨𝙚 𝙖 𝙋𝙮𝙩𝙝𝙤𝙣 𝙨𝙘𝙧𝙞𝙥𝙩 𝙘𝙖𝙡𝙡𝙚𝙙 '𝙧𝙢.𝙥𝙮' 𝙖𝙣𝙙 𝙧𝙚𝙥𝙡𝙖𝙘𝙚 𝙩𝙝𝙚 𝙐𝙍𝙇 𝙖𝙣𝙙 𝙚𝙢𝙖𝙞𝙡 𝙫𝙖𝙧𝙞𝙖𝙗𝙡𝙚𝙨 𝙖𝙘𝙘𝙤𝙧𝙙𝙞𝙣𝙜𝙡𝙮.
 
 👉Note:-
 
