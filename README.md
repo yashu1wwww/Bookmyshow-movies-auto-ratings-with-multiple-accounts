@@ -49,6 +49,8 @@ Copy the URL of the movie you want to add to your automatic interests. Then, sel
 
 You only need to enter the OTP within 11 seconds (use your mobile phone for faster entry of OTP).
 
+## "If you know how to automate OTP entry, then fork it."
+
 Note: After replacing the email and URL, the entire process will be automated."
 
 👉use these technique to enter otp fastly
