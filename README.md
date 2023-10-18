@@ -6,13 +6,11 @@ Bookmyshow auto ratings with multiple mails using python with selenium
 #replace with your dot mails in rm.py add 15 dot mails of one gmail and another 15 dot mails in another gmail use 
 these for dot gmails enter your gmail and press generate button after
 
-Replace the URL of the movie you want to rate on line 47.
-
-Copy the URL of the movie you want to add to your automatic interests. Then, select the lines below and press 'Ctrl+H'. It will prompt you to replace the selected text, paste the copied URL, and click on 'Replace All'. After replacing the email and URL, the entire process will be automated.
+Replace the URL of the movie you want to rate on line 50th and do replace in below code where url is asked...
 
 You only need to enter the OTP within 11 seconds (use your mobile phone for faster entry of OTP).
 
-Note: After replacing the email and URL, the entire process will be automated."
+## Note: After replacing the email and URL, the entire process will be automated."
 
 ## 👉use these technique to enter otp fastly
 
@@ -22,7 +20,7 @@ https://youtu.be/kKkhecWiWbc
 
 https://youtu.be/LDIkXSJwbpo
 
-In the 48th line, which rating value do you want? You can choose from the following options:
+In the 80th line, which rating value do you want? You can choose from the following options:
 
 0,10
 
@@ -45,7 +43,8 @@ In the 48th line, which rating value do you want? You can choose from the follow
 100,100 - for 100% ratings
 
 To download the latest version of Chrome Driver, please visit https://chromedriver.chromium.org/ and extract the file to the designated folder. 
-Then open the command prompt and enter rm.py or rename it and run it...
+
+## Then open the command prompt and enter rm.py or rename it and run it...
 
 ## open cmd and enter undetected_chromedriver
 
