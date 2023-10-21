@@ -16,10 +16,6 @@ You only need to enter the OTP within 11 seconds (use your mobile phone for fast
 
 https://youtu.be/kKkhecWiWbc
 
-## 👉Bms auto ratings(for video record i made auto rates one time)
-
-https://youtu.be/LDIkXSJwbpo
-
 In the 80th line, which rating value do you want? You can choose from the following options:
 
 0,10
