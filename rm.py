@@ -1,9 +1,6 @@
-import undetected_chromedriver as uc
+from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.support.ui import Select
-from selenium.webdriver.remote.webelement import WebElement
-from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support import expected_conditions as EC
@@ -44,1257 +41,1420 @@ bb=['yashwanth6666+evans@gmail.com']
 cc=['yashwanth6666+stan@gmail.com']
 dd=['yashwanth6666+kaye@gmail.com']
 
+option = webdriver.ChromeOptions()
+option.add_experimental_option("debuggerAddress","localhost:9222")
 
-driver = uc.Chrome(use_subprocess=True)
-wait = WebDriverWait(driver, 20)
-driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626") #first select the city and movie url and replace here which you want and do same process below code also where required..
+driver = webdriver.Chrome(options=option)
 
-driver.implicitly_wait(2)
+time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
+
+driver.implicitly_wait(4)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate now button
 
 time.sleep(1)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click() #click on continue with email
 
-time.sleep(4)
+time.sleep(3)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(a)) 
-time.sleep(1)
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
+driver.find_element_by_css_selector('#emailId').send_keys(random.choice(a))  #email select
 
-time.sleep(11)
+time.sleep(2)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+
+time.sleep(15)
 
 driver.maximize_window()
 
 time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate button
 
-time.sleep(1)
+time.sleep(3)
 
-#slider = driver.find_element_by_css_selector("#range")
-slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
+slider = driver.find_element_by_css_selector("#range") #automatically star move..
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click() #submit button
 
-driver.close()
+time.sleep(2)
 
-driver = uc.Chrome(use_subprocess=True)
-wait = WebDriverWait(driver, 20)
-driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
+driver.find_element_by_xpath('//*[@id="super-container"]/header/div[1]/div/div/div/div[2]/div[2]').click() #click on human logo
 
-driver.implicitly_wait(2)
+time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3]/button').click() #signout
 
-time.sleep(1)
+time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click()
+driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
 
-time.sleep(4)
+driver.implicitly_wait(4)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(b)) 
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate now button
 
 time.sleep(1)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click() #click on continue with email
 
-time.sleep(11)
+time.sleep(3)
+
+driver.find_element_by_css_selector('#emailId').send_keys(random.choice(b))  #email select
+
+time.sleep(2)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+
+time.sleep(15)
 
 driver.maximize_window()
 
 time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate button
 
-time.sleep(1)
+time.sleep(3)
 
-#slider = driver.find_element_by_css_selector("#range")
-slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
+slider = driver.find_element_by_css_selector("#range") #automatically star move..
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click() #submit button
 
-driver.close()
+time.sleep(2)
 
-driver = uc.Chrome(use_subprocess=True)
-wait = WebDriverWait(driver, 20)
-driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
+driver.find_element_by_xpath('//*[@id="super-container"]/header/div[1]/div/div/div/div[2]/div[2]').click() #click on human logo
 
-driver.implicitly_wait(2)
+time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3]/button').click() #signout
 
-time.sleep(1)
+time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click()
+driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
 
-time.sleep(4)
+driver.implicitly_wait(4)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(c)) 
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate now button
 
 time.sleep(1)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click() #click on continue with email
 
-time.sleep(11)
+time.sleep(3)
+
+driver.find_element_by_css_selector('#emailId').send_keys(random.choice(c))  #email select
+
+time.sleep(2)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+
+time.sleep(15)
 
 driver.maximize_window()
 
 time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate button
 
-time.sleep(1)
+time.sleep(3)
 
-#slider = driver.find_element_by_css_selector("#range")
-slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
+slider = driver.find_element_by_css_selector("#range") #automatically star move..
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click() #submit button
 
-driver.close()
+time.sleep(2)
 
-driver = uc.Chrome(use_subprocess=True)
-wait = WebDriverWait(driver, 20)
-driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
+driver.find_element_by_xpath('//*[@id="super-container"]/header/div[1]/div/div/div/div[2]/div[2]').click() #click on human logo
 
-driver.implicitly_wait(2)
+time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3]/button').click() #signout
 
-time.sleep(1)
+time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click()
+driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
 
-time.sleep(4)
+driver.implicitly_wait(4)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(d)) 
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate now button
 
 time.sleep(1)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click() #click on continue with email
 
-time.sleep(11)
+time.sleep(3)
+
+driver.find_element_by_css_selector('#emailId').send_keys(random.choice(d))  #email select
+
+time.sleep(2)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+
+time.sleep(15)
 
 driver.maximize_window()
 
 time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate button
 
-time.sleep(1)
+time.sleep(3)
 
-#slider = driver.find_element_by_css_selector("#range")
-slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
+slider = driver.find_element_by_css_selector("#range") #automatically star move..
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click() #submit button
 
-driver.close()
+time.sleep(2)
 
-driver = uc.Chrome(use_subprocess=True)
-wait = WebDriverWait(driver, 20)
-driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
+driver.find_element_by_xpath('//*[@id="super-container"]/header/div[1]/div/div/div/div[2]/div[2]').click() #click on human logo
 
-driver.implicitly_wait(2)
+time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3]/button').click() #signout
 
-time.sleep(1)
+time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click()
+driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
 
-time.sleep(4)
+driver.implicitly_wait(4)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(e)) 
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate now button
 
 time.sleep(1)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click() #click on continue with email
 
-time.sleep(11)
+time.sleep(3)
+
+driver.find_element_by_css_selector('#emailId').send_keys(random.choice(e))  #email select
+
+time.sleep(2)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+
+time.sleep(15)
 
 driver.maximize_window()
 
 time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate button
 
-time.sleep(1)
+time.sleep(3)
 
-#slider = driver.find_element_by_css_selector("#range")
-slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
+slider = driver.find_element_by_css_selector("#range") #automatically star move..
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click() #submit button
 
-driver.close()
+time.sleep(2)
 
-driver = uc.Chrome(use_subprocess=True)
-wait = WebDriverWait(driver, 20)
-driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
+driver.find_element_by_xpath('//*[@id="super-container"]/header/div[1]/div/div/div/div[2]/div[2]').click() #click on human logo
 
-driver.implicitly_wait(2)
+time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3]/button').click() #signout
 
-time.sleep(1)
+time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click()
+driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
 
-time.sleep(4)
+driver.implicitly_wait(4)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(f)) 
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate now button
 
 time.sleep(1)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click() #click on continue with email
 
-time.sleep(11)
+time.sleep(3)
+
+driver.find_element_by_css_selector('#emailId').send_keys(random.choice(f))  #email select
+
+time.sleep(2)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+
+time.sleep(15)
 
 driver.maximize_window()
 
 time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate button
 
-time.sleep(1)
+time.sleep(3)
 
-#slider = driver.find_element_by_css_selector("#range")
-slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
+slider = driver.find_element_by_css_selector("#range") #automatically star move..
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click() #submit button
 
-driver.close()
+time.sleep(2)
 
-driver = uc.Chrome(use_subprocess=True)
-wait = WebDriverWait(driver, 20)
-driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
+driver.find_element_by_xpath('//*[@id="super-container"]/header/div[1]/div/div/div/div[2]/div[2]').click() #click on human logo
 
-driver.implicitly_wait(2)
+time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3]/button').click() #signout
 
-time.sleep(1)
+time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click()
+driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
 
-time.sleep(4)
+driver.implicitly_wait(4)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(g)) 
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate now button
 
 time.sleep(1)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click() #click on continue with email
 
-time.sleep(11)
+time.sleep(3)
+
+driver.find_element_by_css_selector('#emailId').send_keys(random.choice(g))  #email select
+
+time.sleep(2)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+
+time.sleep(15)
 
 driver.maximize_window()
 
 time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate button
 
-time.sleep(1)
+time.sleep(3)
 
-#slider = driver.find_element_by_css_selector("#range")
-slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
+slider = driver.find_element_by_css_selector("#range") #automatically star move..
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click() #submit button
 
-driver.close()
+time.sleep(2)
 
-driver = uc.Chrome(use_subprocess=True)
-wait = WebDriverWait(driver, 20)
-driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
+driver.find_element_by_xpath('//*[@id="super-container"]/header/div[1]/div/div/div/div[2]/div[2]').click() #click on human logo
 
-driver.implicitly_wait(2)
+time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3]/button').click() #signout
 
-time.sleep(1)
+time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click()
+driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
 
-time.sleep(4)
+driver.implicitly_wait(4)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(h)) 
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate now button
 
 time.sleep(1)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click() #click on continue with email
 
-time.sleep(11)
+time.sleep(3)
+
+driver.find_element_by_css_selector('#emailId').send_keys(random.choice(h))  #email select
+
+time.sleep(2)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+
+time.sleep(15)
 
 driver.maximize_window()
 
 time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate button
 
-time.sleep(1)
+time.sleep(3)
 
-#slider = driver.find_element_by_css_selector("#range")
-slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
+slider = driver.find_element_by_css_selector("#range") #automatically star move..
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click() #submit button
 
-driver.close()
+time.sleep(2)
 
+driver.find_element_by_xpath('//*[@id="super-container"]/header/div[1]/div/div/div/div[2]/div[2]').click() #click on human logo
 
-driver = webdriver.Chrome()
-driver = uc.Chrome(use_subprocess=True)
-wait = WebDriverWait(driver, 20)
-driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
+time.sleep(2)
 
-driver.implicitly_wait(2)
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3]/button').click() #signout
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+time.sleep(2)
 
-time.sleep(1)
+driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click()
+driver.implicitly_wait(4)
 
-time.sleep(4)
-
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(i)) 
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate now button
 
 time.sleep(1)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click() #click on continue with email
 
-time.sleep(11)
+time.sleep(3)
+
+driver.find_element_by_css_selector('#emailId').send_keys(random.choice(i))  #email select
+
+time.sleep(2)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+
+time.sleep(15)
 
 driver.maximize_window()
 
 time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate button
 
-time.sleep(1)
+time.sleep(3)
 
-#slider = driver.find_element_by_css_selector("#range")
-slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
+slider = driver.find_element_by_css_selector("#range") #automatically star move..
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click() #submit button
 
-driver.close()
+time.sleep(2)
 
-driver = uc.Chrome(use_subprocess=True)
-wait = WebDriverWait(driver, 20)
-driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
+driver.find_element_by_xpath('//*[@id="super-container"]/header/div[1]/div/div/div/div[2]/div[2]').click() #click on human logo
 
-driver.implicitly_wait(2)
+time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3]/button').click() #signout
 
-time.sleep(1)
+time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click()
+driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
 
-time.sleep(4)
+driver.implicitly_wait(4)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(j)) 
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate now button
 
 time.sleep(1)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click() #click on continue with email
 
-time.sleep(11)
+time.sleep(3)
+
+driver.find_element_by_css_selector('#emailId').send_keys(random.choice(j))  #email select
+
+time.sleep(2)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+
+time.sleep(15)
 
 driver.maximize_window()
 
 time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate button
 
-time.sleep(1)
+time.sleep(3)
 
-#slider = driver.find_element_by_css_selector("#range")
-slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
+slider = driver.find_element_by_css_selector("#range") #automatically star move..
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click() #submit button
 
-driver.close()
+time.sleep(2)
 
+driver.find_element_by_xpath('//*[@id="super-container"]/header/div[1]/div/div/div/div[2]/div[2]').click() #click on human logo
 
-driver = uc.Chrome(use_subprocess=True)
-wait = WebDriverWait(driver, 20)
-driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
+time.sleep(2)
 
-driver.implicitly_wait(2)
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3]/button').click() #signout
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+time.sleep(2)
 
-time.sleep(1)
+driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click()
+driver.implicitly_wait(4)
 
-time.sleep(4)
-
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(k)) 
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate now button
 
 time.sleep(1)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click() #click on continue with email
 
-time.sleep(11)
+time.sleep(3)
+
+driver.find_element_by_css_selector('#emailId').send_keys(random.choice(k))  #email select
+
+time.sleep(2)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+
+time.sleep(15)
 
 driver.maximize_window()
 
 time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate button
 
-time.sleep(1)
+time.sleep(3)
 
-#slider = driver.find_element_by_css_selector("#range")
-slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
+slider = driver.find_element_by_css_selector("#range") #automatically star move..
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click() #submit button
 
-driver.close()
+time.sleep(2)
 
-driver = uc.Chrome(use_subprocess=True)
-wait = WebDriverWait(driver, 20)
-driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
+driver.find_element_by_xpath('//*[@id="super-container"]/header/div[1]/div/div/div/div[2]/div[2]').click() #click on human logo
 
-driver.implicitly_wait(2)
+time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3]/button').click() #signout
 
-time.sleep(1)
+time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click()
+driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
 
-time.sleep(4)
+driver.implicitly_wait(4)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(l)) 
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate now button
 
 time.sleep(1)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click() #click on continue with email
 
-time.sleep(11)
+time.sleep(3)
+
+driver.find_element_by_css_selector('#emailId').send_keys(random.choice(l))  #email select
+
+time.sleep(2)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+
+time.sleep(15)
 
 driver.maximize_window()
 
 time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate button
 
-time.sleep(1)
+time.sleep(3)
 
-#slider = driver.find_element_by_css_selector("#range")
-slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
+slider = driver.find_element_by_css_selector("#range") #automatically star move..
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click() #submit button
 
-driver.close()
+time.sleep(2)
 
-driver = uc.Chrome(use_subprocess=True)
-wait = WebDriverWait(driver, 20)
-driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
+driver.find_element_by_xpath('//*[@id="super-container"]/header/div[1]/div/div/div/div[2]/div[2]').click() #click on human logo
 
-driver.implicitly_wait(2)
+time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3]/button').click() #signout
 
-time.sleep(1)
+time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click()
+driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
 
-time.sleep(4)
+driver.implicitly_wait(4)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(m)) 
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate now button
 
 time.sleep(1)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click() #click on continue with email
 
-time.sleep(11)
+time.sleep(3)
+
+driver.find_element_by_css_selector('#emailId').send_keys(random.choice(m))  #email select
+
+time.sleep(2)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+
+time.sleep(15)
 
 driver.maximize_window()
 
 time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate button
 
-time.sleep(1)
+time.sleep(3)
 
-#slider = driver.find_element_by_css_selector("#range")
-slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
+slider = driver.find_element_by_css_selector("#range") #automatically star move..
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click() #submit button
 
-driver.close()
+time.sleep(2)
 
-driver = uc.Chrome(use_subprocess=True)
-wait = WebDriverWait(driver, 20)
-driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
+driver.find_element_by_xpath('//*[@id="super-container"]/header/div[1]/div/div/div/div[2]/div[2]').click() #click on human logo
 
-driver.implicitly_wait(2)
+time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3]/button').click() #signout
 
-time.sleep(1)
+time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click()
+driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
 
-time.sleep(4)
+driver.implicitly_wait(4)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(n)) 
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate now button
 
 time.sleep(1)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click() #click on continue with email
 
-time.sleep(11)
+time.sleep(3)
+
+driver.find_element_by_css_selector('#emailId').send_keys(random.choice(n))  #email select
+
+time.sleep(2)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+
+time.sleep(15)
 
 driver.maximize_window()
 
 time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate button
 
-time.sleep(1)
+time.sleep(3)
 
-#slider = driver.find_element_by_css_selector("#range")
-slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
+slider = driver.find_element_by_css_selector("#range") #automatically star move..
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click() #submit button
 
-driver.close()
+time.sleep(2)
 
-driver = uc.Chrome(use_subprocess=True)
-wait = WebDriverWait(driver, 20)
-driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
+driver.find_element_by_xpath('//*[@id="super-container"]/header/div[1]/div/div/div/div[2]/div[2]').click() #click on human logo
 
-driver.implicitly_wait(2)
+time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3]/button').click() #signout
 
-time.sleep(1)
+time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click()
+driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
 
-time.sleep(4)
+driver.implicitly_wait(4)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(o)) 
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate now button
 
 time.sleep(1)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click() #click on continue with email
 
-time.sleep(11)
+time.sleep(3)
+
+driver.find_element_by_css_selector('#emailId').send_keys(random.choice(o))  #email select
+
+time.sleep(2)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+
+time.sleep(15)
 
 driver.maximize_window()
 
 time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate button
 
-time.sleep(1)
+time.sleep(3)
 
-#slider = driver.find_element_by_css_selector("#range")
-slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
+slider = driver.find_element_by_css_selector("#range") #automatically star move..
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click() #submit button
 
-driver.close()
+time.sleep(2)
 
-driver = uc.Chrome(use_subprocess=True)
-wait = WebDriverWait(driver, 20)
-driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
+driver.find_element_by_xpath('//*[@id="super-container"]/header/div[1]/div/div/div/div[2]/div[2]').click() #click on human logo
 
-driver.implicitly_wait(2)
+time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3]/button').click() #signout
 
-time.sleep(1)
+time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click()
+driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
 
-time.sleep(4)
+driver.implicitly_wait(4)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(p)) 
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate now button
 
 time.sleep(1)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click() #click on continue with email
 
-time.sleep(11)
+time.sleep(3)
+
+driver.find_element_by_css_selector('#emailId').send_keys(random.choice(p))  #email select
+
+time.sleep(2)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+
+time.sleep(15)
 
 driver.maximize_window()
 
 time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate button
 
-time.sleep(1)
+time.sleep(3)
 
-#slider = driver.find_element_by_css_selector("#range")
-slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
+slider = driver.find_element_by_css_selector("#range") #automatically star move..
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click() #submit button
 
-driver.close()
+time.sleep(2)
 
-driver = uc.Chrome(use_subprocess=True)
-wait = WebDriverWait(driver, 20)
-driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
+driver.find_element_by_xpath('//*[@id="super-container"]/header/div[1]/div/div/div/div[2]/div[2]').click() #click on human logo
 
-driver.implicitly_wait(2)
+time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3]/button').click() #signout
 
-time.sleep(1)
+time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click()
+driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
 
-time.sleep(4)
+driver.implicitly_wait(4)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(q)) 
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate now button
 
 time.sleep(1)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click() #click on continue with email
 
-time.sleep(11)
+time.sleep(3)
+
+driver.find_element_by_css_selector('#emailId').send_keys(random.choice(q))  #email select
+
+time.sleep(2)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+
+time.sleep(15)
 
 driver.maximize_window()
 
 time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate button
 
-time.sleep(1)
+time.sleep(3)
 
-#slider = driver.find_element_by_css_selector("#range")
-slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
+slider = driver.find_element_by_css_selector("#range") #automatically star move..
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click() #submit button
 
-driver.close()
+time.sleep(2)
 
-driver = uc.Chrome(use_subprocess=True)
-wait = WebDriverWait(driver, 20)
-driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
+driver.find_element_by_xpath('//*[@id="super-container"]/header/div[1]/div/div/div/div[2]/div[2]').click() #click on human logo
 
-driver.implicitly_wait(2)
+time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3]/button').click() #signout
 
-time.sleep(1)
+time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click()
+driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
 
-time.sleep(4)
+driver.implicitly_wait(4)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(r)) 
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate now button
 
 time.sleep(1)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click() #click on continue with email
 
-time.sleep(11)
+time.sleep(3)
+
+driver.find_element_by_css_selector('#emailId').send_keys(random.choice(r))  #email select
+
+time.sleep(2)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+
+time.sleep(15)
 
 driver.maximize_window()
 
 time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate button
 
-time.sleep(1)
+time.sleep(3)
 
-#slider = driver.find_element_by_css_selector("#range")
-slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
+slider = driver.find_element_by_css_selector("#range") #automatically star move..
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click() #submit button
 
-driver.close()
+time.sleep(2)
 
+driver.find_element_by_xpath('//*[@id="super-container"]/header/div[1]/div/div/div/div[2]/div[2]').click() #click on human logo
 
-driver = uc.Chrome(use_subprocess=True)
-wait = WebDriverWait(driver, 20)
-driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
+time.sleep(2)
 
-driver.implicitly_wait(2)
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3]/button').click() #signout
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+time.sleep(2)
+driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
 
-time.sleep(1)
+driver.implicitly_wait(4)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click()
-
-time.sleep(4)
-
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(s)) 
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate now button
 
 time.sleep(1)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click() #click on continue with email
 
-time.sleep(11)
+time.sleep(3)
+
+driver.find_element_by_css_selector('#emailId').send_keys(random.choice(s))  #email select
+
+time.sleep(2)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+
+time.sleep(15)
 
 driver.maximize_window()
 
 time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate button
 
-time.sleep(1)
+time.sleep(3)
 
-#slider = driver.find_element_by_css_selector("#range")
-slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
+slider = driver.find_element_by_css_selector("#range") #automatically star move..
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click() #submit button
 
-driver.close()
+time.sleep(2)
 
-driver = uc.Chrome(use_subprocess=True)
-wait = WebDriverWait(driver, 20)
-driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
+driver.find_element_by_xpath('//*[@id="super-container"]/header/div[1]/div/div/div/div[2]/div[2]').click() #click on human logo
 
-driver.implicitly_wait(2)
+time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3]/button').click() #signout
 
-time.sleep(1)
+time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click()
+driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
 
-time.sleep(4)
+driver.implicitly_wait(4)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(t)) 
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate now button
 
 time.sleep(1)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click() #click on continue with email
 
-time.sleep(11)
+time.sleep(3)
+
+driver.find_element_by_css_selector('#emailId').send_keys(random.choice(t))  #email select
+
+time.sleep(2)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+
+time.sleep(15)
 
 driver.maximize_window()
 
 time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate button
 
-time.sleep(1)
+time.sleep(3)
 
-#slider = driver.find_element_by_css_selector("#range")
-slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
+slider = driver.find_element_by_css_selector("#range") #automatically star move..
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click() #submit button
 
-driver.close()
+time.sleep(2)
 
-driver = uc.Chrome(use_subprocess=True)
-wait = WebDriverWait(driver, 20)
-driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
+driver.find_element_by_xpath('//*[@id="super-container"]/header/div[1]/div/div/div/div[2]/div[2]').click() #click on human logo
 
-driver.implicitly_wait(2)
+time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3]/button').click() #signout
 
-time.sleep(1)
+time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click()
+driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
 
-time.sleep(4)
+driver.implicitly_wait(4)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(u)) 
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate now button
 
 time.sleep(1)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click() #click on continue with email
 
-time.sleep(11)
+time.sleep(3)
+
+driver.find_element_by_css_selector('#emailId').send_keys(random.choice(u))  #email select
+
+time.sleep(2)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+
+time.sleep(15)
 
 driver.maximize_window()
 
 time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate button
 
-time.sleep(1)
+time.sleep(3)
 
-#slider = driver.find_element_by_css_selector("#range")
-slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
+slider = driver.find_element_by_css_selector("#range") #automatically star move..
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click() #submit button
 
-driver.close()
+time.sleep(2)
 
-driver = uc.Chrome(use_subprocess=True)
-wait = WebDriverWait(driver, 20)
-driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
+driver.find_element_by_xpath('//*[@id="super-container"]/header/div[1]/div/div/div/div[2]/div[2]').click() #click on human logo
 
-driver.implicitly_wait(2)
+time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3]/button').click() #signout
 
-time.sleep(1)
+time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click()
+driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
 
-time.sleep(4)
+driver.implicitly_wait(4)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(v)) 
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate now button
 
 time.sleep(1)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click() #click on continue with email
 
-time.sleep(11)
+time.sleep(3)
+
+driver.find_element_by_css_selector('#emailId').send_keys(random.choice(v))  #email select
+
+time.sleep(2)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+
+time.sleep(15)
 
 driver.maximize_window()
 
 time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate button
 
-time.sleep(1)
+time.sleep(3)
 
-#slider = driver.find_element_by_css_selector("#range")
-slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
+slider = driver.find_element_by_css_selector("#range") #automatically star move..
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click() #submit button
 
-driver.close()
+time.sleep(2)
 
+driver.find_element_by_xpath('//*[@id="super-container"]/header/div[1]/div/div/div/div[2]/div[2]').click() #click on human logo
 
-driver = uc.Chrome(use_subprocess=True)
-wait = WebDriverWait(driver, 20)
-driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
+time.sleep(2)
 
-driver.implicitly_wait(2)
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3]/button').click() #signout
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+time.sleep(2)
 
-time.sleep(1)
+driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click()
+driver.implicitly_wait(4)
 
-time.sleep(4)
-
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(w)) 
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate now button
 
 time.sleep(1)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click() #click on continue with email
 
-time.sleep(11)
+time.sleep(3)
+
+driver.find_element_by_css_selector('#emailId').send_keys(random.choice(w))  #email select
+
+time.sleep(2)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+
+time.sleep(15)
 
 driver.maximize_window()
 
 time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate button
 
-time.sleep(1)
+time.sleep(3)
 
-#slider = driver.find_element_by_css_selector("#range")
-slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
+slider = driver.find_element_by_css_selector("#range") #automatically star move..
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click() #submit button
 
-driver.close()
+time.sleep(2)
 
-driver = uc.Chrome(use_subprocess=True)
-wait = WebDriverWait(driver, 20)
-driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
+driver.find_element_by_xpath('//*[@id="super-container"]/header/div[1]/div/div/div/div[2]/div[2]').click() #click on human logo
 
-driver.implicitly_wait(2)
+time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3]/button').click() #signout
 
-time.sleep(1)
+time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click()
+driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
 
-time.sleep(4)
+driver.implicitly_wait(4)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(x)) 
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate now button
 
 time.sleep(1)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click() #click on continue with email
 
-time.sleep(11)
+time.sleep(3)
+
+driver.find_element_by_css_selector('#emailId').send_keys(random.choice(x))  #email select
+
+time.sleep(2)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+
+time.sleep(15)
 
 driver.maximize_window()
 
 time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate button
 
-time.sleep(1)
+time.sleep(3)
 
-#slider = driver.find_element_by_css_selector("#range")
-slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
+slider = driver.find_element_by_css_selector("#range") #automatically star move..
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click() #submit button
 
-driver.close()
+time.sleep(2)
 
+driver.find_element_by_xpath('//*[@id="super-container"]/header/div[1]/div/div/div/div[2]/div[2]').click() #click on human logo
 
-driver = uc.Chrome(use_subprocess=True)
-wait = WebDriverWait(driver, 20)
-driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
+time.sleep(2)
 
-driver.implicitly_wait(2)
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3]/button').click() #signout
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+time.sleep(2)
+
+driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
+
+driver.implicitly_wait(4)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate now button
 
 time.sleep(1)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click() #click on continue with email
 
-time.sleep(4)
+time.sleep(3)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(y)) 
-time.sleep(1)
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
+driver.find_element_by_css_selector('#emailId').send_keys(random.choice(y))  #email select
 
-time.sleep(11)
+time.sleep(2)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+
+time.sleep(15)
 
 driver.maximize_window()
 
 time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate button
 
-time.sleep(1)
+time.sleep(3)
 
-#slider = driver.find_element_by_css_selector("#range")
-slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
+slider = driver.find_element_by_css_selector("#range") #automatically star move..
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click() #submit button
 
-driver.close()
+time.sleep(2)
 
-driver = uc.Chrome(use_subprocess=True)
-wait = WebDriverWait(driver, 20)
-driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
+driver.find_element_by_xpath('//*[@id="super-container"]/header/div[1]/div/div/div/div[2]/div[2]').click() #click on human logo
 
-driver.implicitly_wait(2)
+time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3]/button').click() #signout
+
+time.sleep(2)
+
+driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
+
+driver.implicitly_wait(4)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate now button
 
 time.sleep(1)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click() #click on continue with email
 
-time.sleep(4)
+time.sleep(3)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(z)) 
-time.sleep(1)
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
+driver.find_element_by_css_selector('#emailId').send_keys(random.choice(z))  #email select
 
-time.sleep(11)
+time.sleep(2)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+
+time.sleep(15)
 
 driver.maximize_window()
 
 time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate button
 
-time.sleep(1)
+time.sleep(3)
 
-#slider = driver.find_element_by_css_selector("#range")
-slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
+slider = driver.find_element_by_css_selector("#range") #automatically star move..
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click() #submit button
 
-driver.close()
+time.sleep(2)
 
+driver.find_element_by_xpath('//*[@id="super-container"]/header/div[1]/div/div/div/div[2]/div[2]').click() #click on human logo
 
-driver = uc.Chrome(use_subprocess=True)
-wait = WebDriverWait(driver, 20)
-driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
+time.sleep(2)
 
-driver.implicitly_wait(2)
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3]/button').click() #signout
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+time.sleep(2)
+
+driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
+
+driver.implicitly_wait(4)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate now button
 
 time.sleep(1)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click() #click on continue with email
 
-time.sleep(4)
+time.sleep(3)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(aa)) 
-time.sleep(1)
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
+driver.find_element_by_css_selector('#emailId').send_keys(random.choice(aa))  #email select
 
-time.sleep(11)
+time.sleep(2)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+
+time.sleep(15)
 
 driver.maximize_window()
 
 time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate button
 
-time.sleep(1)
+time.sleep(3)
 
-#slider = driver.find_element_by_css_selector("#range")
-slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
+slider = driver.find_element_by_css_selector("#range") #automatically star move..
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click() #submit button
 
-driver.close()
+time.sleep(2)
 
-driver = uc.Chrome(use_subprocess=True)
-wait = WebDriverWait(driver, 20)
-driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
+driver.find_element_by_xpath('//*[@id="super-container"]/header/div[1]/div/div/div/div[2]/div[2]').click() #click on human logo
 
-driver.implicitly_wait(2)
+time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3]/button').click() #signout
+
+time.sleep(2)
+
+driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
+
+driver.implicitly_wait(4)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate now button
 
 time.sleep(1)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click() #click on continue with email
 
-time.sleep(4)
+time.sleep(3)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(bb)) 
-time.sleep(1)
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
+driver.find_element_by_css_selector('#emailId').send_keys(random.choice(bb))  #email select
 
-time.sleep(11)
+time.sleep(2)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+
+time.sleep(15)
 
 driver.maximize_window()
 
 time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate button
 
-time.sleep(1)
+time.sleep(3)
 
-#slider = driver.find_element_by_css_selector("#range")
-slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
+slider = driver.find_element_by_css_selector("#range") #automatically star move..
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click() #submit button
 
-driver.close()
+time.sleep(2)
 
-driver = uc.Chrome(use_subprocess=True)
-wait = WebDriverWait(driver, 20)
-driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
+driver.find_element_by_xpath('//*[@id="super-container"]/header/div[1]/div/div/div/div[2]/div[2]').click() #click on human logo
 
-driver.implicitly_wait(2)
+time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3]/button').click() #signout
+
+time.sleep(2)
+
+driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
+
+driver.implicitly_wait(4)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate now button
 
 time.sleep(1)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click() #click on continue with email
 
-time.sleep(4)
+time.sleep(3)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(cc)) 
-time.sleep(1)
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
+driver.find_element_by_css_selector('#emailId').send_keys(random.choice(cc))  #email select
 
-time.sleep(11)
+time.sleep(2)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+
+time.sleep(15)
 
 driver.maximize_window()
 
 time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate button
 
-time.sleep(1)
+time.sleep(3)
 
-#slider = driver.find_element_by_css_selector("#range")
-slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
+slider = driver.find_element_by_css_selector("#range") #automatically star move..
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click() #submit button
 
-driver.close()
+time.sleep(2)
 
-driver = uc.Chrome(use_subprocess=True)
-wait = WebDriverWait(driver, 20)
-driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
+driver.find_element_by_xpath('//*[@id="super-container"]/header/div[1]/div/div/div/div[2]/div[2]').click() #click on human logo
 
-driver.implicitly_wait(2)
+time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3]/button').click() #signout
+
+time.sleep(2)
+
+driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
+
+driver.implicitly_wait(4)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate now button
 
 time.sleep(1)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click() #click on continue with email
 
-time.sleep(4)
+time.sleep(3)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(dd)) 
-time.sleep(1)
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
+driver.find_element_by_css_selector('#emailId').send_keys(random.choice(dd))  #email select
 
-time.sleep(11)
+time.sleep(2)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+
+time.sleep(15)
 
 driver.maximize_window()
 
 time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate button
 
-time.sleep(1)
+time.sleep(3)
 
-#slider = driver.find_element_by_css_selector("#range")
-slider = driver.find_element_by_css_selector("#super-container > div.sc-11q8erw-0.cPZFLW > div > div.sc-10qvp23-0.bAXHgy > div > div > div > div:nth-child(2) > div.main.scroll-out.false.desktop-main > div > div.rating-wrapper.false > div.rating-section > div.rating-slider-wrapper")
+slider = driver.find_element_by_css_selector("#range") #automatically star move..
 
 move = ActionChains(driver)
 move.click_and_hold(slider).move_by_offset(100,100).release().perform()
 
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click() #submit button
 
-driver.close()
+time.sleep(2)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/header/div[1]/div/div/div/div[2]/div[2]').click() #click on human logo
+
+time.sleep(2)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3]/button').click() #signout
+
+time.sleep(20)
+
 
