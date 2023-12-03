@@ -60,7 +60,7 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[
 time.sleep(4)
 
 driver.find_element_by_css_selector('#emailId').send_keys(random.choice(a)) 
-
+time.sleep(1)
 driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
 
 time.sleep(11)
@@ -100,6 +100,8 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[
 time.sleep(4)
 
 driver.find_element_by_css_selector('#emailId').send_keys(random.choice(b)) 
+
+time.sleep(1)
 
 driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
 
@@ -141,6 +143,8 @@ time.sleep(4)
 
 driver.find_element_by_css_selector('#emailId').send_keys(random.choice(c)) 
 
+time.sleep(1)
+
 driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
 
 time.sleep(11)
@@ -180,6 +184,8 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[
 time.sleep(4)
 
 driver.find_element_by_css_selector('#emailId').send_keys(random.choice(d)) 
+
+time.sleep(1)
 
 driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
 
@@ -221,6 +227,8 @@ time.sleep(4)
 
 driver.find_element_by_css_selector('#emailId').send_keys(random.choice(e)) 
 
+time.sleep(1)
+
 driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
 
 time.sleep(11)
@@ -260,6 +268,8 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[
 time.sleep(4)
 
 driver.find_element_by_css_selector('#emailId').send_keys(random.choice(f)) 
+
+time.sleep(1)
 
 driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
 
@@ -301,6 +311,8 @@ time.sleep(4)
 
 driver.find_element_by_css_selector('#emailId').send_keys(random.choice(g)) 
 
+time.sleep(1)
+
 driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
 
 time.sleep(11)
@@ -340,6 +352,8 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[
 time.sleep(4)
 
 driver.find_element_by_css_selector('#emailId').send_keys(random.choice(h)) 
+
+time.sleep(1)
 
 driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
 
@@ -383,6 +397,8 @@ time.sleep(4)
 
 driver.find_element_by_css_selector('#emailId').send_keys(random.choice(i)) 
 
+time.sleep(1)
+
 driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
 
 time.sleep(11)
@@ -422,6 +438,8 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[
 time.sleep(4)
 
 driver.find_element_by_css_selector('#emailId').send_keys(random.choice(j)) 
+
+time.sleep(1)
 
 driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
 
@@ -464,6 +482,8 @@ time.sleep(4)
 
 driver.find_element_by_css_selector('#emailId').send_keys(random.choice(k)) 
 
+time.sleep(1)
+
 driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
 
 time.sleep(11)
@@ -503,6 +523,8 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[
 time.sleep(4)
 
 driver.find_element_by_css_selector('#emailId').send_keys(random.choice(l)) 
+
+time.sleep(1)
 
 driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
 
@@ -544,6 +566,8 @@ time.sleep(4)
 
 driver.find_element_by_css_selector('#emailId').send_keys(random.choice(m)) 
 
+time.sleep(1)
+
 driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
 
 time.sleep(11)
@@ -583,6 +607,8 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[
 time.sleep(4)
 
 driver.find_element_by_css_selector('#emailId').send_keys(random.choice(n)) 
+
+time.sleep(1)
 
 driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
 
@@ -624,6 +650,8 @@ time.sleep(4)
 
 driver.find_element_by_css_selector('#emailId').send_keys(random.choice(o)) 
 
+time.sleep(1)
+
 driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
 
 time.sleep(11)
@@ -663,6 +691,8 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[
 time.sleep(4)
 
 driver.find_element_by_css_selector('#emailId').send_keys(random.choice(p)) 
+
+time.sleep(1)
 
 driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
 
@@ -704,6 +734,8 @@ time.sleep(4)
 
 driver.find_element_by_css_selector('#emailId').send_keys(random.choice(q)) 
 
+time.sleep(1)
+
 driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
 
 time.sleep(11)
@@ -743,6 +775,8 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[
 time.sleep(4)
 
 driver.find_element_by_css_selector('#emailId').send_keys(random.choice(r)) 
+
+time.sleep(1)
 
 driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
 
@@ -785,6 +819,8 @@ time.sleep(4)
 
 driver.find_element_by_css_selector('#emailId').send_keys(random.choice(s)) 
 
+time.sleep(1)
+
 driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
 
 time.sleep(11)
@@ -824,6 +860,8 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[
 time.sleep(4)
 
 driver.find_element_by_css_selector('#emailId').send_keys(random.choice(t)) 
+
+time.sleep(1)
 
 driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
 
@@ -865,6 +903,8 @@ time.sleep(4)
 
 driver.find_element_by_css_selector('#emailId').send_keys(random.choice(u)) 
 
+time.sleep(1)
+
 driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
 
 time.sleep(11)
@@ -904,6 +944,8 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[
 time.sleep(4)
 
 driver.find_element_by_css_selector('#emailId').send_keys(random.choice(v)) 
+
+time.sleep(1)
 
 driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
 
@@ -946,6 +988,8 @@ time.sleep(4)
 
 driver.find_element_by_css_selector('#emailId').send_keys(random.choice(w)) 
 
+time.sleep(1)
+
 driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
 
 time.sleep(11)
@@ -985,6 +1029,8 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[
 time.sleep(4)
 
 driver.find_element_by_css_selector('#emailId').send_keys(random.choice(x)) 
+
+time.sleep(1)
 
 driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
 
@@ -1026,7 +1072,7 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[
 time.sleep(4)
 
 driver.find_element_by_css_selector('#emailId').send_keys(random.choice(y)) 
-
+time.sleep(1)
 driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
 
 time.sleep(11)
@@ -1066,7 +1112,7 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[
 time.sleep(4)
 
 driver.find_element_by_css_selector('#emailId').send_keys(random.choice(z)) 
-
+time.sleep(1)
 driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
 
 time.sleep(11)
@@ -1107,7 +1153,7 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[
 time.sleep(4)
 
 driver.find_element_by_css_selector('#emailId').send_keys(random.choice(aa)) 
-
+time.sleep(1)
 driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
 
 time.sleep(11)
@@ -1147,7 +1193,7 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[
 time.sleep(4)
 
 driver.find_element_by_css_selector('#emailId').send_keys(random.choice(bb)) 
-
+time.sleep(1)
 driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
 
 time.sleep(11)
@@ -1187,7 +1233,7 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[
 time.sleep(4)
 
 driver.find_element_by_css_selector('#emailId').send_keys(random.choice(cc)) 
-
+time.sleep(1)
 driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
 
 time.sleep(11)
@@ -1227,7 +1273,7 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[
 time.sleep(4)
 
 driver.find_element_by_css_selector('#emailId').send_keys(random.choice(dd)) 
-
+time.sleep(1)
 driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click()
 
 time.sleep(11)
