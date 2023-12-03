@@ -9,18 +9,18 @@ https://www.youtube.com/watch?v=FVumnHy5Tzo&t=1s&ab_channel=HelloWorld
 
 # Watch up to 3 minutes and 20 seconds, then open guest in that then,copy the script and saving it. Run the code with the necessary replacements..
 
-#replace with your dot mails in rm.py add 15 dot mails of one gmail and another 15 dot mails in another gmail use 
+# replace with your dot mails in rm.py add 15 dot mails of one gmail and another 15 dot mails in another gmail use 
 
 Replace the URL of the movie you want..
 
-You only need to enter the OTP within 15 seconds..
+# You only need to enter the OTP within 15 seconds..
 
 ## Note: After replacing the email and URL, the entire process will be automated."
 
 
 # 👉 Note:Every time Bms updates the code, it varies. So, fork the code if not work means...
 
-# In the 80th line, which rating value do you want? You can choose from the following options:
+# In the rating line which ratio want choose..
 
 0,10
 
@@ -42,7 +42,9 @@ You only need to enter the OTP within 15 seconds..
 
 100,100 - for 100% ratings
 
-To download the latest version of Chrome Driver, please visit https://chromedriver.chromium.org/ and extract the file to the designated folder. 
+To download the latest version of Chrome Driver, please visit https://chromedriver.chromium.org/
+
+and extract the file to the designated folder. 
 
 ## 👉Note:-
 
