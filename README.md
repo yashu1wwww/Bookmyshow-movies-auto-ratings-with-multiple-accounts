@@ -11,13 +11,12 @@ https://www.youtube.com/watch?v=FVumnHy5Tzo&t=1s&ab_channel=HelloWorld
 
 #replace with your dot mails in rm.py add 15 dot mails of one gmail and another 15 dot mails in another gmail use 
 
-these for dot gmails enter your gmail and press generate button after
+Replace the URL of the movie you want..
 
-Replace the URL of the movie you want to rate on line 50th and do replace in below code where url is asked...
-
-You only need to enter the OTP within 11 seconds (use your mobile phone for faster entry of OTP).
+You only need to enter the OTP within 15 seconds..
 
 ## Note: After replacing the email and URL, the entire process will be automated."
+
 
 # 👉 Note:Every time Bms updates the code, it varies. So, fork the code if not work means...
 
