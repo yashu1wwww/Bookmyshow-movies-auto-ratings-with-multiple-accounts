@@ -45,10 +45,6 @@ You only need to enter the OTP within 11 seconds (use your mobile phone for fast
 
 To download the latest version of Chrome Driver, please visit https://chromedriver.chromium.org/ and extract the file to the designated folder. 
 
-## 👉use these technique to enter otp fastly
-
-https://youtu.be/kKkhecWiWbc
-
 ## 👉Note:-
 
 👉if your selenium version is in latest version then the code never run 
