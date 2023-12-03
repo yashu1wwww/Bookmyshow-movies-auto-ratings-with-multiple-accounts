@@ -48,7 +48,7 @@ driver = webdriver.Chrome(options=option)
 
 time.sleep(2)
 
-driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
+driver.get("https://in.bookmyshow.com") #first select the city then select the required movie url
 
 driver.implicitly_wait(4)
 
