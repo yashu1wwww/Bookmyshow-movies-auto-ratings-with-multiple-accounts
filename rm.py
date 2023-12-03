@@ -51,7 +51,7 @@ driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626") #
 
 driver.implicitly_wait(2)
 
-driver.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
 
 time.sleep(1)
 
@@ -91,7 +91,7 @@ driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
 
 driver.implicitly_wait(2)
 
-driver.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
 
 time.sleep(1)
 
@@ -131,7 +131,7 @@ driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
 
 driver.implicitly_wait(2)
 
-driver.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
 
 time.sleep(1)
 
@@ -171,7 +171,7 @@ driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
 
 driver.implicitly_wait(2)
 
-driver.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
 
 time.sleep(1)
 
@@ -211,7 +211,7 @@ driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
 
 driver.implicitly_wait(2)
 
-driver.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
 
 time.sleep(1)
 
@@ -251,7 +251,7 @@ driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
 
 driver.implicitly_wait(2)
 
-driver.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
 
 time.sleep(1)
 
@@ -291,7 +291,7 @@ driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
 
 driver.implicitly_wait(2)
 
-driver.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
 
 time.sleep(1)
 
@@ -331,7 +331,7 @@ driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
 
 driver.implicitly_wait(2)
 
-driver.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
 
 time.sleep(1)
 
@@ -373,7 +373,7 @@ driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
 
 driver.implicitly_wait(2)
 
-driver.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
 
 time.sleep(1)
 
@@ -413,7 +413,7 @@ driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
 
 driver.implicitly_wait(2)
 
-driver.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
 
 time.sleep(1)
 
@@ -454,7 +454,7 @@ driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
 
 driver.implicitly_wait(2)
 
-driver.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
 
 time.sleep(1)
 
@@ -494,7 +494,7 @@ driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
 
 driver.implicitly_wait(2)
 
-driver.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
 
 time.sleep(1)
 
@@ -534,7 +534,7 @@ driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
 
 driver.implicitly_wait(2)
 
-driver.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
 
 time.sleep(1)
 
@@ -574,7 +574,7 @@ driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
 
 driver.implicitly_wait(2)
 
-driver.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
 
 time.sleep(1)
 
@@ -614,7 +614,7 @@ driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
 
 driver.implicitly_wait(2)
 
-driver.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
 
 time.sleep(1)
 
@@ -654,7 +654,7 @@ driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
 
 driver.implicitly_wait(2)
 
-driver.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
 
 time.sleep(1)
 
@@ -694,7 +694,7 @@ driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
 
 driver.implicitly_wait(2)
 
-driver.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
 
 time.sleep(1)
 
@@ -734,7 +734,7 @@ driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
 
 driver.implicitly_wait(2)
 
-driver.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
 
 time.sleep(1)
 
@@ -775,7 +775,7 @@ driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
 
 driver.implicitly_wait(2)
 
-driver.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
 
 time.sleep(1)
 
@@ -815,7 +815,7 @@ driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
 
 driver.implicitly_wait(2)
 
-driver.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
 
 time.sleep(1)
 
@@ -855,7 +855,7 @@ driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
 
 driver.implicitly_wait(2)
 
-driver.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
 
 time.sleep(1)
 
@@ -895,7 +895,7 @@ driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
 
 driver.implicitly_wait(2)
 
-driver.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
 
 time.sleep(1)
 
@@ -936,7 +936,7 @@ driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
 
 driver.implicitly_wait(2)
 
-driver.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
 
 time.sleep(1)
 
@@ -976,7 +976,7 @@ driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
 
 driver.implicitly_wait(2)
 
-driver.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
 
 time.sleep(1)
 
@@ -1017,7 +1017,7 @@ driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
 
 driver.implicitly_wait(2)
 
-driver.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
 
 time.sleep(1)
 
@@ -1057,7 +1057,7 @@ driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
 
 driver.implicitly_wait(2)
 
-driver.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
 
 time.sleep(1)
 
@@ -1098,7 +1098,7 @@ driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
 
 driver.implicitly_wait(2)
 
-driver.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
 
 time.sleep(1)
 
@@ -1138,7 +1138,7 @@ driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
 
 driver.implicitly_wait(2)
 
-driver.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
 
 time.sleep(1)
 
@@ -1178,7 +1178,7 @@ driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
 
 driver.implicitly_wait(2)
 
-driver.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
 
 time.sleep(1)
 
@@ -1218,7 +1218,7 @@ driver.get("https://in.bookmyshow.com/bengaluru/movies/virupaksha/ET00346626")
 
 driver.implicitly_wait(2)
 
-driver.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button').click()
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click()
 
 time.sleep(1)
 
