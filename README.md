@@ -5,7 +5,12 @@ Bookmyshow auto ratings with multiple mails using python with selenium
 
 ## I searched on Google but couldn't find it, so I created it. That's it.
 
+https://www.youtube.com/watch?v=FVumnHy5Tzo&t=1s&ab_channel=HelloWorld
+
+# Watch up to 3 minutes and 20 seconds, then continue from the remaining part, copying the script section and saving it. Run the code with the necessary replacements
+
 #replace with your dot mails in rm.py add 15 dot mails of one gmail and another 15 dot mails in another gmail use 
+
 these for dot gmails enter your gmail and press generate button after
 
 Replace the URL of the movie you want to rate on line 50th and do replace in below code where url is asked...
@@ -20,7 +25,7 @@ https://youtu.be/kKkhecWiWbc
 
 # 👉 Note:Every time Bms updates the code, it varies. So, fork the code if not work means...
 
-In the 80th line, which rating value do you want? You can choose from the following options:
+# In the 80th line, which rating value do you want? You can choose from the following options:
 
 0,10
 
