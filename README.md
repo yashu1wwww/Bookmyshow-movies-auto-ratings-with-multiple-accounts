@@ -15,8 +15,7 @@ Replace the URL of the movie you want..
 
 # You only need to enter the OTP within 15 seconds..
 
-## Note: After replacing the email and URL, the entire process will be automated."
-
+## Note: After replacing the emails or temp emails and url "https://in.bookmyshow.com" (select these text and press ctrl+h then ask find what and replace with movie url with city)
 
 # 👉 Note:Every time Bms updates the code, it varies. So, fork the code if not work means...
 
