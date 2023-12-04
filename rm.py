@@ -48,7 +48,7 @@ driver = webdriver.Chrome(options=option)
 
 time.sleep(2)
 
-driver.get("https://in.bookmyshow.com") #first select the city then select the required movie url
+driver.get("https://in.bookmyshow.com") #select these text and press ctrl+h then ask find what and replace with movie url with city
 
 driver.implicitly_wait(4)
 
