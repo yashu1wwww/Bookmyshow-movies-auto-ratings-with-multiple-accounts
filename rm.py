@@ -95,7 +95,7 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3
 
 time.sleep(2)
 
-driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
+driver.get("https://in.bookmyshow.com") #first select the city then select the required movie url
 
 driver.implicitly_wait(4)
 
@@ -142,7 +142,7 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3
 
 time.sleep(2)
 
-driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
+driver.get("https://in.bookmyshow.com") #first select the city then select the required movie url
 
 driver.implicitly_wait(4)
 
@@ -189,7 +189,7 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3
 
 time.sleep(2)
 
-driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
+driver.get("https://in.bookmyshow.com") #first select the city then select the required movie url
 
 driver.implicitly_wait(4)
 
@@ -236,7 +236,7 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3
 
 time.sleep(2)
 
-driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
+driver.get("https://in.bookmyshow.com") #first select the city then select the required movie url
 
 driver.implicitly_wait(4)
 
@@ -283,7 +283,7 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3
 
 time.sleep(2)
 
-driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
+driver.get("https://in.bookmyshow.com") #first select the city then select the required movie url
 
 driver.implicitly_wait(4)
 
@@ -330,7 +330,7 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3
 
 time.sleep(2)
 
-driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
+driver.get("https://in.bookmyshow.com") #first select the city then select the required movie url
 
 driver.implicitly_wait(4)
 
@@ -377,7 +377,7 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3
 
 time.sleep(2)
 
-driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
+driver.get("https://in.bookmyshow.com") #first select the city then select the required movie url
 
 driver.implicitly_wait(4)
 
@@ -424,7 +424,7 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3
 
 time.sleep(2)
 
-driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
+driver.get("https://in.bookmyshow.com") #first select the city then select the required movie url
 
 driver.implicitly_wait(4)
 
@@ -471,7 +471,7 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3
 
 time.sleep(2)
 
-driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
+driver.get("https://in.bookmyshow.com") #first select the city then select the required movie url
 
 driver.implicitly_wait(4)
 
@@ -518,7 +518,7 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3
 
 time.sleep(2)
 
-driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
+driver.get("https://in.bookmyshow.com") #first select the city then select the required movie url
 
 driver.implicitly_wait(4)
 
@@ -565,7 +565,7 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3
 
 time.sleep(2)
 
-driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
+driver.get("https://in.bookmyshow.com") #first select the city then select the required movie url
 
 driver.implicitly_wait(4)
 
@@ -612,7 +612,7 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3
 
 time.sleep(2)
 
-driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
+driver.get("https://in.bookmyshow.com") #first select the city then select the required movie url
 
 driver.implicitly_wait(4)
 
@@ -659,7 +659,7 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3
 
 time.sleep(2)
 
-driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
+driver.get("https://in.bookmyshow.com") #first select the city then select the required movie url
 
 driver.implicitly_wait(4)
 
@@ -706,7 +706,7 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3
 
 time.sleep(2)
 
-driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
+driver.get("https://in.bookmyshow.com") #first select the city then select the required movie url
 
 driver.implicitly_wait(4)
 
@@ -753,7 +753,7 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3
 
 time.sleep(2)
 
-driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
+driver.get("https://in.bookmyshow.com") #first select the city then select the required movie url
 
 driver.implicitly_wait(4)
 
@@ -800,7 +800,7 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3
 
 time.sleep(2)
 
-driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
+driver.get("https://in.bookmyshow.com") #first select the city then select the required movie url
 
 driver.implicitly_wait(4)
 
@@ -847,7 +847,7 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3
 
 time.sleep(2)
 
-driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
+driver.get("https://in.bookmyshow.com") #first select the city then select the required movie url
 
 driver.implicitly_wait(4)
 
@@ -893,7 +893,7 @@ time.sleep(2)
 driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3]/button').click() #signout
 
 time.sleep(2)
-driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
+driver.get("https://in.bookmyshow.com") #first select the city then select the required movie url
 
 driver.implicitly_wait(4)
 
@@ -940,7 +940,7 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3
 
 time.sleep(2)
 
-driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
+driver.get("https://in.bookmyshow.com") #first select the city then select the required movie url
 
 driver.implicitly_wait(4)
 
@@ -987,7 +987,7 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3
 
 time.sleep(2)
 
-driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
+driver.get("https://in.bookmyshow.com") #first select the city then select the required movie url
 
 driver.implicitly_wait(4)
 
@@ -1034,7 +1034,7 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3
 
 time.sleep(2)
 
-driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
+driver.get("https://in.bookmyshow.com") #first select the city then select the required movie url
 
 driver.implicitly_wait(4)
 
@@ -1081,7 +1081,7 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3
 
 time.sleep(2)
 
-driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
+driver.get("https://in.bookmyshow.com") #first select the city then select the required movie url
 
 driver.implicitly_wait(4)
 
@@ -1128,7 +1128,7 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3
 
 time.sleep(2)
 
-driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
+driver.get("https://in.bookmyshow.com") #first select the city then select the required movie url
 
 driver.implicitly_wait(4)
 
@@ -1175,7 +1175,7 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3
 
 time.sleep(2)
 
-driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
+driver.get("https://in.bookmyshow.com") #first select the city then select the required movie url
 
 driver.implicitly_wait(4)
 
@@ -1222,7 +1222,7 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3
 
 time.sleep(2)
 
-driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
+driver.get("https://in.bookmyshow.com") #first select the city then select the required movie url
 
 driver.implicitly_wait(4)
 
@@ -1269,7 +1269,7 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3
 
 time.sleep(2)
 
-driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
+driver.get("https://in.bookmyshow.com") #first select the city then select the required movie url
 
 driver.implicitly_wait(4)
 
@@ -1316,7 +1316,7 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3
 
 time.sleep(2)
 
-driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
+driver.get("https://in.bookmyshow.com") #first select the city then select the required movie url
 
 driver.implicitly_wait(4)
 
@@ -1363,7 +1363,7 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3
 
 time.sleep(2)
 
-driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
+driver.get("https://in.bookmyshow.com") #first select the city then select the required movie url
 
 driver.implicitly_wait(4)
 
@@ -1410,7 +1410,7 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3
 
 time.sleep(2)
 
-driver.get("https://in.bookmyshow.com/bengaluru/movies/master/ET00110368") #first select the city then select the required movie url
+driver.get("https://in.bookmyshow.com") #first select the city then select the required movie url
 
 driver.implicitly_wait(4)
 
@@ -1456,5 +1456,4 @@ time.sleep(2)
 driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3]/button').click() #signout
 
 time.sleep(20)
-
 
