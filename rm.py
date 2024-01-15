@@ -10,8 +10,8 @@ import random
 
 #replace with your 15 dot mails of one gmails and another 15 dot mails of another gmails here remaining all goes automatic process you only enter the otp in 11 seconds(use mobile for otp where fastly we can enter by seeing otp in mobile)....
 
-a=['mygmail+nash@gmail.com']
-b=['mygmail@gmail.com'] 
+a=['uu874608@gmail.com']
+b=['uu.874608@gmail.com'] 
 c=['my@gmail.com'] 
 d=['my@gmail.com']
 e=['my@gmail.com']
@@ -61,11 +61,10 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[
 
 time.sleep(3)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(a))  #email select
-
-time.sleep(2)
-
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+email=driver.find_element_by_css_selector('#emailId')
+email.send_keys(random.choice(a)) #email select
+time.sleep(1)
+email.send_keys(Keys.ENTER) #next button
 
 time.sleep(15)
 
@@ -108,11 +107,10 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[
 
 time.sleep(3)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(b))  #email select
-
-time.sleep(2)
-
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+email=driver.find_element_by_css_selector('#emailId')
+email.send_keys(random.choice(b)) #email select
+time.sleep(1)
+email.send_keys(Keys.ENTER) #next button
 
 time.sleep(15)
 
@@ -155,11 +153,10 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[
 
 time.sleep(3)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(c))  #email select
-
-time.sleep(2)
-
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+email=driver.find_element_by_css_selector('#emailId')
+email.send_keys(random.choice(c)) #email select
+time.sleep(1)
+email.send_keys(Keys.ENTER) #next button
 
 time.sleep(15)
 
@@ -202,11 +199,55 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[
 
 time.sleep(3)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(d))  #email select
+email=driver.find_element_by_css_selector('#emailId')
+email.send_keys(random.choice(d)) #email select
+time.sleep(1)
+email.send_keys(Keys.ENTER) #next button
+time.sleep(15)
+
+driver.maximize_window()
 
 time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate button
+
+time.sleep(3)
+
+slider = driver.find_element_by_css_selector("#range") #automatically star move..
+
+move = ActionChains(driver)
+move.click_and_hold(slider).move_by_offset(100,100).release().perform()
+
+time.sleep(3)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click() #submit button
+
+time.sleep(2)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/header/div[1]/div/div/div/div[2]/div[2]').click() #click on human logo
+
+time.sleep(2)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3]/button').click() #signout
+
+time.sleep(2)
+
+driver.get("https://in.bookmyshow.com") #first select the city then select the required movie url
+
+driver.implicitly_wait(4)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate now button
+
+time.sleep(1)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click() #click on continue with email
+
+time.sleep(3)
+
+email=driver.find_element_by_css_selector('#emailId')
+email.send_keys(random.choice(e)) #email select
+time.sleep(1)
+email.send_keys(Keys.ENTER) #next button
 
 time.sleep(15)
 
@@ -249,11 +290,10 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[
 
 time.sleep(3)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(e))  #email select
-
-time.sleep(2)
-
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+email=driver.find_element_by_css_selector('#emailId')
+email.send_keys(random.choice(f)) #email select
+time.sleep(1)
+email.send_keys(Keys.ENTER) #next button
 
 time.sleep(15)
 
@@ -296,11 +336,55 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[
 
 time.sleep(3)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(f))  #email select
+email=driver.find_element_by_css_selector('#emailId')
+email.send_keys(random.choice(g)) #email select
+time.sleep(1)
+email.send_keys(Keys.ENTER) #next button
+time.sleep(15)
+
+driver.maximize_window()
 
 time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate button
+
+time.sleep(3)
+
+slider = driver.find_element_by_css_selector("#range") #automatically star move..
+
+move = ActionChains(driver)
+move.click_and_hold(slider).move_by_offset(100,100).release().perform()
+
+time.sleep(3)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click() #submit button
+
+time.sleep(2)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/header/div[1]/div/div/div/div[2]/div[2]').click() #click on human logo
+
+time.sleep(2)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3]/button').click() #signout
+
+time.sleep(2)
+
+driver.get("https://in.bookmyshow.com") #first select the city then select the required movie url
+
+driver.implicitly_wait(4)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate now button
+
+time.sleep(1)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click() #click on continue with email
+
+time.sleep(3)
+
+email=driver.find_element_by_css_selector('#emailId')
+email.send_keys(random.choice(h)) #email select
+time.sleep(1)
+email.send_keys(Keys.ENTER) #next button
 
 time.sleep(15)
 
@@ -343,11 +427,10 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[
 
 time.sleep(3)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(g))  #email select
-
-time.sleep(2)
-
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+email=driver.find_element_by_css_selector('#emailId')
+email.send_keys(random.choice(i)) #email select
+time.sleep(1)
+email.send_keys(Keys.ENTER) #next button
 
 time.sleep(15)
 
@@ -390,11 +473,10 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[
 
 time.sleep(3)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(h))  #email select
-
-time.sleep(2)
-
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+email=driver.find_element_by_css_selector('#emailId')
+email.send_keys(random.choice(j)) #email select
+time.sleep(1)
+email.send_keys(Keys.ENTER) #next button
 
 time.sleep(15)
 
@@ -437,11 +519,10 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[
 
 time.sleep(3)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(i))  #email select
-
-time.sleep(2)
-
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+email=driver.find_element_by_css_selector('#emailId')
+email.send_keys(random.choice(k)) #email select
+time.sleep(1)
+email.send_keys(Keys.ENTER) #next button
 
 time.sleep(15)
 
@@ -484,11 +565,10 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[
 
 time.sleep(3)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(j))  #email select
-
-time.sleep(2)
-
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+email=driver.find_element_by_css_selector('#emailId')
+email.send_keys(random.choice(l)) #email select
+time.sleep(1)
+email.send_keys(Keys.ENTER) #next button
 
 time.sleep(15)
 
@@ -531,11 +611,10 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[
 
 time.sleep(3)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(k))  #email select
-
-time.sleep(2)
-
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+email=driver.find_element_by_css_selector('#emailId')
+email.send_keys(random.choice(m)) #email select
+time.sleep(1)
+email.send_keys(Keys.ENTER) #next button
 
 time.sleep(15)
 
@@ -578,11 +657,10 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[
 
 time.sleep(3)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(l))  #email select
-
-time.sleep(2)
-
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+email=driver.find_element_by_css_selector('#emailId')
+email.send_keys(random.choice(n)) #email select
+time.sleep(1)
+email.send_keys(Keys.ENTER) #next button
 
 time.sleep(15)
 
@@ -625,11 +703,10 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[
 
 time.sleep(3)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(m))  #email select
-
-time.sleep(2)
-
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+email=driver.find_element_by_css_selector('#emailId')
+email.send_keys(random.choice(o)) #email select
+time.sleep(1)
+email.send_keys(Keys.ENTER) #next button
 
 time.sleep(15)
 
@@ -672,11 +749,10 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[
 
 time.sleep(3)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(n))  #email select
-
-time.sleep(2)
-
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+email=driver.find_element_by_css_selector('#emailId')
+email.send_keys(random.choice(p)) #email select
+time.sleep(1)
+email.send_keys(Keys.ENTER) #next button
 
 time.sleep(15)
 
@@ -719,11 +795,10 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[
 
 time.sleep(3)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(o))  #email select
-
-time.sleep(2)
-
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+email=driver.find_element_by_css_selector('#emailId')
+email.send_keys(random.choice(q)) #email select
+time.sleep(1)
+email.send_keys(Keys.ENTER) #next button
 
 time.sleep(15)
 
@@ -766,11 +841,55 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[
 
 time.sleep(3)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(p))  #email select
+email=driver.find_element_by_css_selector('#emailId')
+email.send_keys(random.choice(r)) #email select
+time.sleep(1)
+email.send_keys(Keys.ENTER) #next button
+
+time.sleep(15)
+
+driver.maximize_window()
 
 time.sleep(2)
 
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate button
+
+time.sleep(3)
+
+slider = driver.find_element_by_css_selector("#range") #automatically star move..
+
+move = ActionChains(driver)
+move.click_and_hold(slider).move_by_offset(100,100).release().perform()
+
+time.sleep(3)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click() #submit button
+
+time.sleep(2)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/header/div[1]/div/div/div/div[2]/div[2]').click() #click on human logo
+
+time.sleep(2)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3]/button').click() #signout
+
+time.sleep(2)
+driver.get("https://in.bookmyshow.com") #first select the city then select the required movie url
+
+driver.implicitly_wait(4)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate now button
+
+time.sleep(1)
+
+driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click() #click on continue with email
+
+time.sleep(3)
+
+email=driver.find_element_by_css_selector('#emailId')
+email.send_keys(random.choice(s)) #email select
+time.sleep(1)
+email.send_keys(Keys.ENTER) #next button
 
 time.sleep(15)
 
@@ -813,11 +932,10 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[
 
 time.sleep(3)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(q))  #email select
-
-time.sleep(2)
-
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+email=driver.find_element_by_css_selector('#emailId')
+email.send_keys(random.choice(t)) #email select
+time.sleep(1)
+email.send_keys(Keys.ENTER) #next button
 
 time.sleep(15)
 
@@ -860,57 +978,10 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[
 
 time.sleep(3)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(r))  #email select
-
-time.sleep(2)
-
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
-
-time.sleep(15)
-
-driver.maximize_window()
-
-time.sleep(2)
-
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate button
-
-time.sleep(3)
-
-slider = driver.find_element_by_css_selector("#range") #automatically star move..
-
-move = ActionChains(driver)
-move.click_and_hold(slider).move_by_offset(100,100).release().perform()
-
-time.sleep(3)
-
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click() #submit button
-
-time.sleep(2)
-
-driver.find_element_by_xpath('//*[@id="super-container"]/header/div[1]/div/div/div/div[2]/div[2]').click() #click on human logo
-
-time.sleep(2)
-
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3]/button').click() #signout
-
-time.sleep(2)
-driver.get("https://in.bookmyshow.com") #first select the city then select the required movie url
-
-driver.implicitly_wait(4)
-
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate now button
-
+email=driver.find_element_by_css_selector('#emailId')
+email.send_keys(random.choice(u)) #email select
 time.sleep(1)
-
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click() #click on continue with email
-
-time.sleep(3)
-
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(s))  #email select
-
-time.sleep(2)
-
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+email.send_keys(Keys.ENTER) #next button
 
 time.sleep(15)
 
@@ -953,11 +1024,10 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[
 
 time.sleep(3)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(t))  #email select
-
-time.sleep(2)
-
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+email=driver.find_element_by_css_selector('#emailId')
+email.send_keys(random.choice(v)) #email select
+time.sleep(1)
+email.send_keys(Keys.ENTER) #next button
 
 time.sleep(15)
 
@@ -1000,11 +1070,10 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[
 
 time.sleep(3)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(u))  #email select
-
-time.sleep(2)
-
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+email=driver.find_element_by_css_selector('#emailId')
+email.send_keys(random.choice(w)) #email select
+time.sleep(1)
+email.send_keys(Keys.ENTER) #next button
 
 time.sleep(15)
 
@@ -1047,11 +1116,10 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[
 
 time.sleep(3)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(v))  #email select
-
-time.sleep(2)
-
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+email=driver.find_element_by_css_selector('#emailId')
+email.send_keys(random.choice(x)) #email select
+time.sleep(1)
+email.send_keys(Keys.ENTER) #next button
 
 time.sleep(15)
 
@@ -1094,11 +1162,10 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[
 
 time.sleep(3)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(w))  #email select
-
-time.sleep(2)
-
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+email=driver.find_element_by_css_selector('#emailId')
+email.send_keys(random.choice(y)) #email select
+time.sleep(1)
+email.send_keys(Keys.ENTER) #next button
 
 time.sleep(15)
 
@@ -1141,11 +1208,10 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[
 
 time.sleep(3)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(x))  #email select
-
-time.sleep(2)
-
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+email=driver.find_element_by_css_selector('#emailId')
+email.send_keys(random.choice(z)) #email select
+time.sleep(1)
+email.send_keys(Keys.ENTER) #next button
 
 time.sleep(15)
 
@@ -1188,11 +1254,10 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[
 
 time.sleep(3)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(y))  #email select
-
-time.sleep(2)
-
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+email=driver.find_element_by_css_selector('#emailId')
+email.send_keys(random.choice(aa)) #email select
+time.sleep(1)
+email.send_keys(Keys.ENTER) #next button
 
 time.sleep(15)
 
@@ -1235,11 +1300,10 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[
 
 time.sleep(3)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(z))  #email select
-
-time.sleep(2)
-
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+email=driver.find_element_by_css_selector('#emailId')
+email.send_keys(random.choice(bb)) #email select
+time.sleep(1)
+email.send_keys(Keys.ENTER) #next button
 
 time.sleep(15)
 
@@ -1282,11 +1346,10 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[
 
 time.sleep(3)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(aa))  #email select
-
-time.sleep(2)
-
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+email=driver.find_element_by_css_selector('#emailId')
+email.send_keys(random.choice(cc)) #email select
+time.sleep(1)
+email.send_keys(Keys.ENTER) #next button
 
 time.sleep(15)
 
@@ -1329,105 +1392,10 @@ driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[
 
 time.sleep(3)
 
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(bb))  #email select
-
-time.sleep(2)
-
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
-
-time.sleep(15)
-
-driver.maximize_window()
-
-time.sleep(2)
-
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate button
-
-time.sleep(3)
-
-slider = driver.find_element_by_css_selector("#range") #automatically star move..
-
-move = ActionChains(driver)
-move.click_and_hold(slider).move_by_offset(100,100).release().perform()
-
-time.sleep(3)
-
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click() #submit button
-
-time.sleep(2)
-
-driver.find_element_by_xpath('//*[@id="super-container"]/header/div[1]/div/div/div/div[2]/div[2]').click() #click on human logo
-
-time.sleep(2)
-
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3]/button').click() #signout
-
-time.sleep(2)
-
-driver.get("https://in.bookmyshow.com") #first select the city then select the required movie url
-
-driver.implicitly_wait(4)
-
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate now button
-
+email=driver.find_element_by_css_selector('#emailId')
+email.send_keys(random.choice(dd)) #email select
 time.sleep(1)
-
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click() #click on continue with email
-
-time.sleep(3)
-
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(cc))  #email select
-
-time.sleep(2)
-
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
-
-time.sleep(15)
-
-driver.maximize_window()
-
-time.sleep(2)
-
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate button
-
-time.sleep(3)
-
-slider = driver.find_element_by_css_selector("#range") #automatically star move..
-
-move = ActionChains(driver)
-move.click_and_hold(slider).move_by_offset(100,100).release().perform()
-
-time.sleep(3)
-
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button').click() #submit button
-
-time.sleep(2)
-
-driver.find_element_by_xpath('//*[@id="super-container"]/header/div[1]/div/div/div/div[2]/div[2]').click() #click on human logo
-
-time.sleep(2)
-
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/div[2]/div/div[3]/button').click() #signout
-
-time.sleep(2)
-
-driver.get("https://in.bookmyshow.com") #first select the city then select the required movie url
-
-driver.implicitly_wait(4)
-
-driver.find_element_by_xpath('//*[@id="super-container"]/div[2]/section[1]/div/div/div[2]/section[2]/div[1]/button/span').click() #click on rate now button
-
-time.sleep(1)
-
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/div/div[1]/div/div[2]/div/div').click() #click on continue with email
-
-time.sleep(3)
-
-driver.find_element_by_css_selector('#emailId').send_keys(random.choice(dd))  #email select
-
-time.sleep(2)
-
-driver.find_element_by_xpath('//*[@id="super-container"]/div[3]/div/div/div/div[2]/form/div[2]/button').click() #email submit
+email.send_keys(Keys.ENTER) #next button
 
 time.sleep(15)
 
@@ -1469,5 +1437,4 @@ time.sleep(20)
 # https://www.fakemail.net/
 
 # https://tempail.com/
-
 
