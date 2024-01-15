@@ -10,12 +10,12 @@ import random
 
 #replace with your 15 dot mails of one gmails and another 15 dot mails of another gmails here remaining all goes automatic process you only enter the otp in 11 seconds(use mobile for otp where fastly we can enter by seeing otp in mobile)....
 
-a=['uu874608@gmail.com']
-b=['uu.874608@gmail.com'] 
-c=['my@gmail.com'] 
-d=['my@gmail.com']
-e=['my@gmail.com']
-f=['my@gmail.com']
+a=['my@gmail.com']
+b=['my@gmai.l.com'] 
+c=['my@gma.il.com'] 
+d=['my@.gmail.com']
+e=['my@gm.ail.com']
+f=['my@gma.il.com']
 g=['mygmail+marva@gmail.com']
 h=['my@gmail.com']
 i=['mygmail+derik@gmail.com']
