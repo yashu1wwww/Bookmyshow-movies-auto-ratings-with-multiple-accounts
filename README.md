@@ -17,7 +17,7 @@ Replace the URL of the movie you want..
 
 ## Note: After replacing the emails or temp emails and url "https://in.bookmyshow.com" (select these text and press ctrl+h then ask find what and replace with movie url with city)
 
-# If you get blocked in Chrome, click on the settings button near the user profile icon, then click the plus mark to add another profile. Use that profile and run im.py or double click on that file..
+# If you get blocked in Chrome, click on the settings button near the user profile icon, then click the plus mark to add another profile. Use that profile and run rm.py or double click on that file..
 
 # 👉 Note:Every time Bms updates the code, it varies. So, fork the code if not work means...
 
