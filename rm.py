@@ -46,7 +46,7 @@ def visit_bookmyshow(email):
     time.sleep(2)
     email_input.send_keys(Keys.ENTER)
 
-    # Wait for OTP entry
+    # Within these enter the otp or change the number to required..
     time.sleep(16)
 
     # Click on "Rate" button
