@@ -31,11 +31,15 @@ then again open new terminal in that folder enter
 
 pip install selenium==4.2.0
 
-after enter im.py or double click on im.py
+after enter rm.py or double click on rm.py
 
-# You only need to enter the OTP within 15 seconds..
+# replace with your temp mails in 17th line or gmails(use dot gmail genrator)
 
-## Note: After replacing the emails or temp emails and url "https://in.bookmyshow.com" (select these text and press ctrl+h then ask find what and replace with movie url with city)
+# replace with desired movie url in 32th line
+
+# You only need to enter the OTP within 15 seconds or chnage to your requirement in 50th line...
+
+----------------------------------------------------------------------------------------------------------
 
 # 👉 Note:Every time Bms updates the code, it varies. So, fork the code if not work means...
 
@@ -65,7 +69,7 @@ To download the latest version of Chrome Driver, please visit https://chromedriv
 
 and extract the file to the designated folder. 
 
-## 👉Note:-
+# 👉Note:-
 
 👉if your selenium version is in latest version then the code never run 
 
