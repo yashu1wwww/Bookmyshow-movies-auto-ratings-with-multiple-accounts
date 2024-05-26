@@ -3,15 +3,35 @@ Bookmyshow auto ratings with multiple mails using python with selenium
 
 𝙄𝙛 𝙔𝙤𝙪 𝙁𝙖𝙣 𝙊𝙛 𝙏𝙝𝙖𝙩 𝙈𝙤𝙫𝙞𝙚 & 𝙈𝙖𝙠𝙚 30+ 𝙍𝙖𝙩𝙞𝙣𝙜𝙨 𝙄𝙣 𝙁𝙖𝙨𝙩 𝙈𝙚𝙖𝙣𝙨 𝙃𝙚𝙧𝙚 𝙄𝙨 𝙏𝙝𝙚 𝘾𝙝𝙖𝙣𝙘𝙚....
 
-## I searched on Google but couldn't find it, so I created it. That's it.
+# (If you want to hit still more auto ratings add emails)
 
 https://www.youtube.com/watch?v=FVumnHy5Tzo&t=1s&ab_channel=HelloWorld
 
-# Watch up to 3 minutes and 20 seconds, then open guest in that then,copy the script and saving it. Run the code with the necessary replacements..
+# Watch up to 3 minutes and 20 seconds, then 
 
-# replace with your dot mails in rm.py add 15 dot mails of one gmail and another 15 dot mails in another gmail use 
+First, open Chrome file location and the Chrome location(use start in: path) is
 
-Replace the URL of the movie you want..
+C:\Users\Hp\AppData\Local\Google\Chrome\Application
+
+click window button and search cmd and enter
+
+cd C:\Users\Hp\AppData\Local\Google\Chrome\Application (1st line in cmd)
+
+in line enter
+
+chrome.exe --remote-debugging-port=9222 --user-data-dir=""(in "enter your localhost path here")
+
+Next, enter this command into the terminal, replacing "enter your localhost path here" with your localhost path:
+
+For example, in my case it is:
+
+chrome.exe --remote-debugging-port=9222 --user-data-dir="C:\Users\Hp\Desktop\Bots\Chromedriver\Localhost" (2nd line in cmd make sure you replace the localhost path)
+
+then again open new terminal in that folder enter
+
+pip install selenium==4.2.0
+
+after enter im.py or double click on im.py
 
 # You only need to enter the OTP within 15 seconds..
 
