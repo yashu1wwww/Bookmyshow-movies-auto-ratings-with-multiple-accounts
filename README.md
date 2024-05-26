@@ -33,6 +33,8 @@ pip install selenium==4.2.0
 
 after enter rm.py or double click on rm.py
 
+# 👉 Note: If you get blocked, click on another profile in Chrome, add the profile, and run it there.
+
 # replace with your temp mails in 17th line or gmails(use dot gmail genrator)
 
 # replace with desired movie url in 32th line
