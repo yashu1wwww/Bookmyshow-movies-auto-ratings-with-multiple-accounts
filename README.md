@@ -35,17 +35,17 @@ after enter rm.py or double click on rm.py
 
 ## 👉 Note: If you get blocked, click on another profile in Chrome, add the profile, and run it there.
 
-# replace with your temp mails in 17th line or gmails(use dot gmail genrator)
+## replace with your temp mails in 17th line or gmails(use dot gmail genrator)
 
-# replace with desired movie url in 32th line
+## replace with desired movie url in 32th line
 
-# You only need to enter the OTP within 15 seconds or chnage to your requirement in 50th line...
+## You only need to enter the OTP within 15 seconds or chnage to your requirement in 50th line...
 
 ----------------------------------------------------------------------------------------------------------
 
-# 👉 Note:Every time Bms updates the code, it varies. So, fork the code if not work means...
+## 👉 Note:Every time Bms updates the code, it varies. So, fork the code if not work means...
 
-# In the rating line which ratio want choose..
+## In the rating line which ratio want choose..
 
 0,10
 
